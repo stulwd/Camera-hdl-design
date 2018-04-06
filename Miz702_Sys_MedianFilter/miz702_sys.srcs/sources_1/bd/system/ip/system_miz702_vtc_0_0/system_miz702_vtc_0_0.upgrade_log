@@ -1,0 +1,121 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Sat May 07 16:48:51 2016
+| Host         : tjy_pc running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_miz702_vtc_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_miz702_vtc_0_0 (milinker:milinker:miz702_vtc:1.0) from (Rev. 18) to (Rev. 19)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'system_miz702_vtc_0_0'. These changes may impact your design.
+
+
+-upgrade has added port 'pixel_x_o'
+-upgrade has added port 'pixel_y_o'
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Sun Apr 10 00:09:58 2016
+| Host         : tjy_pc running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_miz702_vtc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_miz702_vtc_0_0 (milinker:milinker:miz702_vtc:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Sat Apr 09 16:53:13 2016
+| Host         : tjy_pc running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_miz702_vtc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_miz702_vtc_0_0 (milinker:milinker:miz702_vtc:1.0) from (Rev. 15) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Sat Apr 09 15:10:20 2016
+| Host         : tjy_pc running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_miz702_vtc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of system_miz702_vtc_0_0 (milinker:milinker:miz702_vtc:1.0 (Rev. 15)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Sat Apr 09 14:59:56 2016
+| Host         : tjy_pc running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_miz702_vtc_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of system_miz702_vtc_0_0 (milinker:milinker:miz702_vtc:1.0) from (Rev. 13) to (Rev. 15)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'system_miz702_vtc_0_0'. These changes may impact your design.
+
+
+-upgraded port 'data_i' width 24 differs from original width 32
+

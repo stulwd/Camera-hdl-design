@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon May 09 19:46:06 2016
+# Process ID: 6616
+# Current directory: D:/MiZ702/Miz702_Sys_MedianFilter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1280 D:\MiZ702\Miz702_Sys_MedianFilter\miz702_sys.xpr
+# Log file: D:/MiZ702/Miz702_Sys_MedianFilter/vivado.log
+# Journal file: D:/MiZ702/Miz702_Sys_MedianFilter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/MiZ702/Miz702_Sys_MedianFilter/miz702_sys.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/miz702/miz702_ip_core/axis2vga'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/miz702/miz702_ip_core/miz702_vtc_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/MiZ702/miz702_ip_core'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/miz702/miz702_ip_core/axis2vga'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/miz702/miz702_ip_core/miz702_vtc_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/MiZ702/miz702_ip_core'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado2015.4/Vivado/2015.4/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'system.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+system_miz702_vtc_0_0
+system_axis2vga_0_0
+
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:13 . Memory (MB): peak = 810.563 ; gain = 193.957
+launch_sdk -workspace D:/MiZ702/Miz702_Sys_MedianFilter/miz702_sys.sdk -hwspec D:/MiZ702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/MiZ702/Miz702_Sys_MedianFilter/miz702_sys.sdk -hwspec D:/MiZ702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 09 20:10:15 2016...

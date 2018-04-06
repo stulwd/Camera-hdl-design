@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/E_work/XILINXDesign/2016/Miz702/15_Study/CH28/MIZ702_640X480P_OV/MIZ702.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2081fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="5" />
+   <wvobject db_ref_id="1" fp_name="system_i/OV7725_IP_ML_0_de_o" type="logic">
+      <obj_property name="ElementShortName">system_i/OV7725_IP_ML_0_de_o</obj_property>
+      <obj_property name="ObjectShortName">system_i/OV7725_IP_ML_0_de_o</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/OV7725_IP_ML_0_hs_o" type="logic">
+      <obj_property name="ElementShortName">system_i/OV7725_IP_ML_0_hs_o</obj_property>
+      <obj_property name="ObjectShortName">system_i/OV7725_IP_ML_0_hs_o</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/OV7725_IP_ML_0_vs_o" type="logic">
+      <obj_property name="ElementShortName">system_i/OV7725_IP_ML_0_vs_o</obj_property>
+      <obj_property name="ObjectShortName">system_i/OV7725_IP_ML_0_vs_o</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/OV7725_IP_ML_0_rgb_o" type="array">
+      <obj_property name="ElementShortName">system_i/OV7725_IP_ML_0_rgb_o[23:0]</obj_property>
+      <obj_property name="ObjectShortName">system_i/OV7725_IP_ML_0_rgb_o[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/v_vid_in_axi4s_0_overflow" type="logic">
+      <obj_property name="ElementShortName">system_i/v_vid_in_axi4s_0_overflow</obj_property>
+      <obj_property name="ObjectShortName">system_i/v_vid_in_axi4s_0_overflow</obj_property>
+   </wvobject>
+</wave_config>

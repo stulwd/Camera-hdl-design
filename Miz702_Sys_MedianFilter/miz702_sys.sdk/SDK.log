@@ -1,0 +1,247 @@
+17:42:34 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:42:41 INFO  : XSDB server has started successfully.
+17:42:42 INFO  : Processing command line option -hwspec E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper.hdf.
+17:55:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:55:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 1' command is executed.
+17:55:20 INFO  : FPGA configured successfully with bitstream "E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:56:08 INFO  : ps7_init is completed.
+17:56:08 INFO  : ps7_post_config is completed.
+17:56:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:57:09 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+17:57:09 ERROR : Timeout occured while waiting to get reply for command "xdownload 64 E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/MedianFilterTest/Debug/MedianFilterTest.elf"
+17:57:09 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:58:07 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:31:45 INFO  : Launching XSDB server: xsdb.bat D:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+18:31:49 INFO  : XSDB server has started successfully.
+18:31:57 INFO  : Processing command line option -hwspec E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper.hdf.
+18:32:00 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+18:32:00 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1462616997028,  Project:1462612434873
+18:32:00 INFO  : The hardware specification for project 'system_wrapper_hw_platform_0' is different from E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper.hdf.
+18:32:00 INFO  : Copied contents of E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+18:32:08 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:32:18 INFO  : 
+18:32:20 INFO  : Updating hardware inferred compiler options for MedianFilterTest.
+18:32:20 INFO  : Clearing existing target manager status.
+18:32:22 INFO  : Closing and re-opening the MSS file of ther project MedianFilterTest_bsp
+18:32:24 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+18:32:27 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+18:34:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:34:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 1' command is executed.
+18:34:27 INFO  : FPGA configured successfully with bitstream "E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:36:13 INFO  : ps7_init is completed.
+18:36:13 INFO  : ps7_post_config is completed.
+18:36:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:37:13 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+18:37:13 ERROR : Timeout occured while waiting to get reply for command "xdownload 64 E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/MedianFilterTest/Debug/MedianFilterTest.elf"
+18:37:13 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+20:42:37 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+20:43:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:43:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 1' command is executed.
+20:43:18 INFO  : FPGA configured successfully with bitstream "E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+20:43:48 INFO  : ps7_init is completed.
+20:43:48 INFO  : ps7_post_config is completed.
+20:43:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:44:48 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+20:44:48 ERROR : Timeout occured while waiting to get reply for command "xdownload 64 E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/MedianFilterTest/Debug/MedianFilterTest.elf"
+20:44:48 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+20:47:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:47:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 1' command is executed.
+20:47:59 INFO  : FPGA configured successfully with bitstream "E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+20:48:57 INFO  : ps7_init is completed.
+20:48:57 INFO  : ps7_post_config is completed.
+20:48:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:49:57 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+20:49:57 ERROR : Timeout occured while waiting to get reply for command "xdownload 64 E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/MedianFilterTest/Debug/MedianFilterTest.elf"
+20:49:57 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+21:06:22 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+22:59:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:59:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 1' command is executed.
+23:00:07 INFO  : FPGA configured successfully with bitstream "E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+23:00:49 INFO  : ps7_init is completed.
+23:00:49 INFO  : ps7_post_config is completed.
+23:00:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:01:49 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+23:01:49 ERROR : Timeout occured while waiting to get reply for command "xdownload 64 E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/MedianFilterTest/Debug/MedianFilterTest.elf"
+23:01:49 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+23:05:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:06:32 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+23:06:32 ERROR : Timeout occured while waiting to get reply for command "xdownload 64 E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/MedianFilterTest/Debug/MedianFilterTest.elf"
+23:06:32 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+23:14:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:41:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:41:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 1' command is executed.
+23:41:50 INFO  : FPGA configured successfully with bitstream "E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+23:42:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:42:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 1' command is executed.
+23:42:53 INFO  : FPGA configured successfully with bitstream "E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+23:43:00 INFO  : ps7_init is completed.
+23:43:00 INFO  : ps7_post_config is completed.
+23:43:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:44:00 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+23:44:00 ERROR : Timeout occured while waiting to get reply for command "xdownload 64 E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/MedianFilterTest/Debug/MedianFilterTest.elf"
+23:44:00 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+23:45:00 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+23:45:00 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 64"
+23:45:00 ERROR : Disconnect target failed.
+23:47:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:47:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 1' command is executed.
+23:48:05 INFO  : FPGA configured successfully with bitstream "E:/Miz702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+23:48:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:22:37 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:21:48 INFO  : Launching XSDB server: xsdb.bat D:/vivado2015.4/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:21:54 INFO  : XSDB server has started successfully.
+16:22:00 INFO  : Processing command line option -hwspec D:/MiZ702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper.hdf.
+16:31:01 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:38:18 INFO  : Launching XSDB server: xsdb.bat D:/vivado2015.4/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+18:38:34 INFO  : XSDB server has started successfully.
+18:38:54 INFO  : Processing command line option -hwspec D:/MiZ702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper.hdf.
+18:38:55 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+18:40:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:40:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Platform Cable USB 00000000000000" && level==0} -index 1' command is executed.
+18:40:48 INFO  : FPGA configured successfully with bitstream "D:/MiZ702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:41:05 INFO  : ps7_init is completed.
+18:41:06 INFO  : ps7_post_config is completed.
+18:41:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:42:06 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+18:42:06 ERROR : Timeout occured while waiting to get reply for command "xdownload 64 D:/MiZ702/Miz702_Sys_MedianFilter/miz702_sys.sdk/MedianFilterTest/Debug/MedianFilterTest.elf"
+18:42:06 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+18:53:33 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:53:50 INFO  : Launching XSDB server: xsdb.bat D:/vivado2015.4/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+18:53:52 INFO  : XSDB server has started successfully.
+18:53:53 INFO  : Processing command line option -hwspec D:/MiZ702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper.hdf.
+18:53:53 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+18:54:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:55:16 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+18:55:16 ERROR : Timeout occured while waiting to get reply for command "xdownload 64 D:/MiZ702/Miz702_Sys_MedianFilter/miz702_sys.sdk/MedianFilterTest/Debug/MedianFilterTest.elf"
+18:55:16 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+19:41:45 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:47:31 INFO  : Launching XSDB server: xsdb.bat D:/vivado2015.4/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+19:47:33 INFO  : XSDB server has started successfully.
+19:47:34 INFO  : Processing command line option -hwspec D:/MiZ702/Miz702_Sys_MedianFilter/miz702_sys.sdk/system_wrapper.hdf.
+19:47:34 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+19:48:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:49:35 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+19:49:35 ERROR : Timeout occured while waiting to get reply for command "xdownload 64 D:/MiZ702/Miz702_Sys_MedianFilter/miz702_sys.sdk/MedianFilterTest/Debug/MedianFilterTest.elf"
+19:49:35 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+20:10:29 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

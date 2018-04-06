@@ -1,0 +1,11 @@
+06:52:37 **** Incremental Build of configuration Debug for project VIDEO_IP_Test ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../VIDEO_IP_Test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'arm-xilinx-eabi-gcc' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+make: *** [src/main.o] 错误 1
+
+06:52:38 Build Finished (took 977ms)
+

@@ -1,0 +1,6 @@
+22:14:08 **** Build of project device_tree_bsp_2 ****
+make -k all 
+make: *** 没有规则可以创建目标“all”.
+
+22:14:09 Build Finished (took 332ms)
+

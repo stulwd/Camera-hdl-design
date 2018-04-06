@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/Miz702/miz702_sys/miz702_sys.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="19379000fs"></ZoomStartTime>
+      <ZoomEndTime time="20954001fs"></ZoomEndTime>
+      <Cursor1Time time="26629000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="20" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" fp_name="system_i/axis2vga_0/inst/s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">system_i/axis2vga_0/inst/s_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">system_i/axis2vga_0/inst/s_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/axis2vga_0/inst/active_video_in" type="logic">
+      <obj_property name="ElementShortName">system_i/axis2vga_0/inst/active_video_in</obj_property>
+      <obj_property name="ObjectShortName">system_i/axis2vga_0/inst/active_video_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/miz702_vtc_0_fsync_o" type="logic">
+      <obj_property name="ElementShortName">system_i/miz702_vtc_0_fsync_o</obj_property>
+      <obj_property name="ObjectShortName">system_i/miz702_vtc_0_fsync_o</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/axis2vga_0/inst/read_fifo_full_int" type="logic">
+      <obj_property name="ElementShortName">system_i/axis2vga_0/inst/read_fifo_full_int</obj_property>
+      <obj_property name="ObjectShortName">system_i/axis2vga_0/inst/read_fifo_full_int</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/axis2vga_0/inst/s_axis_tready" type="logic">
+      <obj_property name="ElementShortName">system_i/axis2vga_0/inst/s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">system_i/axis2vga_0/inst/s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/axis2vga_0/inst/s_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">system_i/axis2vga_0/inst/s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">system_i/axis2vga_0/inst/s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/axis2vga_0/inst/active_video_in" type="logic">
+      <obj_property name="ElementShortName">system_i/axis2vga_0/inst/active_video_in</obj_property>
+      <obj_property name="ObjectShortName">system_i/axis2vga_0/inst/active_video_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/axis2vga_0/inst/read_fifo_full_int" type="logic">
+      <obj_property name="ElementShortName">system_i/axis2vga_0/inst/read_fifo_full_int</obj_property>
+      <obj_property name="ObjectShortName">system_i/axis2vga_0/inst/read_fifo_full_int</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/axis2vga_0/inst/s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">system_i/axis2vga_0/inst/s_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">system_i/axis2vga_0/inst/s_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/axis2vga_0/inst/s_axis_tready" type="logic">
+      <obj_property name="ElementShortName">system_i/axis2vga_0/inst/s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">system_i/axis2vga_0/inst/s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/axis2vga_0/inst/s_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">system_i/axis2vga_0/inst/s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">system_i/axis2vga_0/inst/s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/miz702_vtc_0_fsync_o" type="logic">
+      <obj_property name="ElementShortName">system_i/miz702_vtc_0_fsync_o</obj_property>
+      <obj_property name="ObjectShortName">system_i/miz702_vtc_0_fsync_o</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/miz702_vtc_0_fsync_o" type="logic">
+      <obj_property name="ElementShortName">system_i/miz702_vtc_0_fsync_o</obj_property>
+      <obj_property name="ObjectShortName">system_i/miz702_vtc_0_fsync_o</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/axis2vga_0/inst/video_data_out" type="array">
+      <obj_property name="ElementShortName">system_i/axis2vga_0/inst/video_data_out[23:0]</obj_property>
+      <obj_property name="ObjectShortName">system_i/axis2vga_0/inst/video_data_out[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/axis2vga_0/inst/s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">system_i/axis2vga_0/inst/s_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">system_i/axis2vga_0/inst/s_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/axis2vga_0/inst/active_video_in" type="logic">
+      <obj_property name="ElementShortName">system_i/axis2vga_0/inst/active_video_in</obj_property>
+      <obj_property name="ObjectShortName">system_i/axis2vga_0/inst/active_video_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/miz702_vtc_0_fsync_o" type="logic">
+      <obj_property name="ElementShortName">system_i/miz702_vtc_0_fsync_o</obj_property>
+      <obj_property name="ObjectShortName">system_i/miz702_vtc_0_fsync_o</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/axis2vga_0/inst/video_data_out" type="array">
+      <obj_property name="ElementShortName">system_i/axis2vga_0/inst/video_data_out[23:0]</obj_property>
+      <obj_property name="ObjectShortName">system_i/axis2vga_0/inst/video_data_out[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/axis2vga_0/inst/s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">system_i/axis2vga_0/inst/s_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">system_i/axis2vga_0/inst/s_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="system_i/axis2vga_0/inst/active_video_in" type="logic">
+      <obj_property name="ElementShortName">system_i/axis2vga_0/inst/active_video_in</obj_property>
+      <obj_property name="ObjectShortName">system_i/axis2vga_0/inst/active_video_in</obj_property>
+   </wvobject>
+</wave_config>

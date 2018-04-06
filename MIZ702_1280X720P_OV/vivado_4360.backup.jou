@@ -1,0 +1,99 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sat Aug 13 20:18:47 2016
+# Process ID: 4360
+# Current directory: D:/MIZ702/CH29/MIZ702_1280X720P_OV
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5336 D:\MIZ702\CH29\MIZ702_1280X720P_OV\MIZ702.xpr
+# Log file: D:/MIZ702/CH29/MIZ702_1280X720P_OV/vivado.log
+# Journal file: D:/MIZ702/CH29/MIZ702_1280X720P_OV\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.xpr
+open_bd_design {D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd}
+set_property location {2 356 575} [get_bd_cells OV5640_IP_ML_0]
+startgroup
+set_property -dict [list CONFIG.CLKOUT3_USED {true} CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {12.5} CONFIG.CLKOUT3_REQUESTED_PHASE {90} CONFIG.MMCM_DIVCLK_DIVIDE {5} CONFIG.MMCM_CLKFBOUT_MULT_F {41.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {11.000} CONFIG.MMCM_CLKOUT1_DIVIDE {33} CONFIG.MMCM_CLKOUT2_DIVIDE {66} CONFIG.MMCM_CLKOUT2_PHASE {90.000} CONFIG.NUM_OUT_CLKS {3} CONFIG.CLKOUT1_JITTER {310.108} CONFIG.CLKOUT1_PHASE_ERROR {313.282} CONFIG.CLKOUT2_JITTER {383.358} CONFIG.CLKOUT2_PHASE_ERROR {313.282} CONFIG.CLKOUT3_JITTER {430.945} CONFIG.CLKOUT3_PHASE_ERROR {313.282}] [get_bd_cells CLK_VIDEO_OUT_GEN]
+endgroup
+disconnect_bd_net /OV7725_IP_ML_0_clk_date_o [get_bd_pins OV5640_IP_ML_0/clk_date_o]
+connect_bd_net [get_bd_pins CLK_VIDEO_OUT_GEN/clk_out3] [get_bd_pins v_vid_in_axi4s_0/aclk]
+save_bd_design
+validate_bd_design
+generate_target all [get_files  D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd]
+export_ip_user_files -of_objects [get_files D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd] -no_script -force -quiet
+export_simulation -of_objects [get_files D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd] -directory D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.ip_user_files/sim_scripts -force -quiet
+make_wrapper -files [get_files D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+file copy -force D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.runs/impl_1/system_wrapper.sysdef D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.sdk/system_wrapper.hdf
+
+launch_sdk -workspace D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.sdk -hwspec D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.sdk/system_wrapper.hdf
+startgroup
+set_property -dict [list CONFIG.CLKOUT3_REQUESTED_PHASE {0} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {9.500} CONFIG.MMCM_CLKOUT0_DIVIDE_F {12.750} CONFIG.MMCM_CLKOUT1_DIVIDE {38} CONFIG.MMCM_CLKOUT2_DIVIDE {76} CONFIG.MMCM_CLKOUT2_PHASE {0.000} CONFIG.CLKOUT1_JITTER {140.839} CONFIG.CLKOUT1_PHASE_ERROR {101.231} CONFIG.CLKOUT2_JITTER {177.138} CONFIG.CLKOUT2_PHASE_ERROR {101.231} CONFIG.CLKOUT3_JITTER {202.856} CONFIG.CLKOUT3_PHASE_ERROR {101.231}] [get_bd_cells CLK_VIDEO_OUT_GEN]
+endgroup
+save_bd_design
+startgroup
+endgroup
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:OV5640_IP_ML:1.0 [get_ips  system_OV5640_IP_ML_0_0]
+generate_target all [get_files  D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd]
+export_ip_user_files -of_objects [get_files D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd] -no_script -force -quiet
+export_simulation -of_objects [get_files D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd] -directory D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.ip_user_files/sim_scripts -force -quiet
+make_wrapper -files [get_files D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+file copy -force D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.runs/impl_1/system_wrapper.sysdef D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.sdk/system_wrapper.hdf
+
+launch_sdk -workspace D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.sdk -hwspec D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.sdk/system_wrapper.hdf
+open_bd_design {D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd}
+startgroup
+set_property -dict [list CONFIG.CLK_IN1_BOARD_INTERFACE {Custom} CONFIG.CLK_IN2_BOARD_INTERFACE {Custom} CONFIG.RESET_BOARD_INTERFACE {Custom} CONFIG.CLKOUT3_USED {false} CONFIG.CLK_IN1_BOARD_INTERFACE {Custom} CONFIG.CLK_IN2_BOARD_INTERFACE {Custom} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKOUT2_DIVIDE {1} CONFIG.NUM_OUT_CLKS {2}] [get_bd_cells CLK_VIDEO_OUT_GEN]
+endgroup
+connect_bd_net [get_bd_pins OV5640_IP_ML_0/clk_date_o] [get_bd_pins v_vid_in_axi4s_0/aclk]
+save_bd_design
+generate_target all [get_files  D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd]
+export_ip_user_files -of_objects [get_files D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd] -no_script -force -quiet
+export_simulation -of_objects [get_files D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd] -directory D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.ip_user_files/sim_scripts -force -quiet
+make_wrapper -files [get_files D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+file copy -force D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.runs/impl_1/system_wrapper.sysdef D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.sdk/system_wrapper.hdf
+
+launch_sdk -workspace D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.sdk -hwspec D:/MIZ702/CH29/MIZ702_1280X720P_OV/MIZ702.sdk/system_wrapper.hdf
+regenerate_bd_layout
+set_property location {5 1779 918} [get_bd_cells OV5640_IP_ML_0]
+undo
+set_property location {1 67 95} [get_bd_cells rst_processing_system7_0_100M]
+set_property location {1 37 313} [get_bd_cells OV5640_IP_ML_0]
+set_property location {1 55 540} [get_bd_cells ila_0]
+set_property location {2 494 159} [get_bd_cells processing_system7_0_axi_periph]
+set_property location {2 510 539} [get_bd_cells v_vid_in_axi4s_0]
+set_property location {4 1358 454} [get_bd_cells v_tc_0]
+set_property location {5 1745 487} [get_bd_cells v_axi4s_vid_out_0]
+set_property location {5 1723 401} [get_bd_cells v_axi4s_vid_out_0]
+set_property location {-258 294} [get_bd_ports cmos_vsync_i]
+set_property location {-248 310} [get_bd_ports cmos_data_i]
+set_property location {-245 355} [get_bd_ports cmos_data_i]
+set_property location {-234 305} [get_bd_ports cmos_pclk_i]
+set_property location {-243 317} [get_bd_ports cmos_pclk_i]
+set_property location {-263 299} [get_bd_ports cmos_href_i]
+set_property location {-237 250} [get_bd_ports cmos_sclk_o]
+set_property location {-289 217} [get_bd_ports cmos_sdat_io]
+set_property location {-246 197} [get_bd_ports cmos_xclk_o]
+set_property location {-243 260} [get_bd_ports cmos_xclk_o]
+set_property location {-242 234} [get_bd_ports cmos_sdat_io]
+set_property location {-235 205} [get_bd_ports cmos_sclk_o]
+set_property location {1 46 72} [get_bd_cells rst_processing_system7_0_100M]
+set_property location {1 51 42} [get_bd_cells rst_processing_system7_0_100M]
+set_property location {-243 201} [get_bd_ports cmos_sclk_o]
+set_property location {-239 251} [get_bd_ports cmos_xclk_o]
+set_property location {-240 208} [get_bd_ports cmos_sclk_o]
+set_property location {5 1719 493} [get_bd_cells v_axi4s_vid_out_0]
+set_property location {5 1718 520} [get_bd_cells v_axi4s_vid_out_0]
+set_property location {5 1729 87} [get_bd_cells processing_system7_0]
+save_bd_design

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Mar 31 13:48:11 2018
+# Process ID: 20348
+# Current directory: D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.runs/impl_1
+# Command line: vivado.exe -log system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
+# Log file: D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.runs/impl_1/system_wrapper.vdi
+# Journal file: D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

@@ -1,0 +1,37 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Sat May 07 18:28:49 2016
+| Host         : tjy_pc running 64-bit Service Pack 1  (build 7601)
+| Command      : report_drc
+------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 2
+
+2. REPORT DETAILS
+-----------------
+PLIO-7#1 Warning
+Placement Constraints Check for IO constraints  
+An IO Bus FIXED_IO_mio[53:0] with more than one IO standard is found. Components associated with this bus are: LVCMOS18 (FIXED_IO_mio[53], FIXED_IO_mio[52], FIXED_IO_mio[51], FIXED_IO_mio[50], FIXED_IO_mio[49], FIXED_IO_mio[48], FIXED_IO_mio[47], FIXED_IO_mio[46], FIXED_IO_mio[45], FIXED_IO_mio[44], FIXED_IO_mio[43], FIXED_IO_mio[42], FIXED_IO_mio[41], FIXED_IO_mio[40], FIXED_IO_mio[39] (the first 15 of 38 listed)); LVCMOS33 (FIXED_IO_mio[15], FIXED_IO_mio[14], FIXED_IO_mio[13], FIXED_IO_mio[12], FIXED_IO_mio[11], FIXED_IO_mio[10], FIXED_IO_mio[9], FIXED_IO_mio[8], FIXED_IO_mio[7], FIXED_IO_mio[6], FIXED_IO_mio[5], FIXED_IO_mio[4], FIXED_IO_mio[3], FIXED_IO_mio[2], FIXED_IO_mio[1] (the first 15 of 16 listed)); 
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+20 net(s) have no routable loads. The problem bus(es) and/or net(s) are system_i/axis2vga_0/inst/s_axis_tdata[0], system_i/axis2vga_0/inst/s_axis_tdata[1], system_i/axis2vga_0/inst/s_axis_tdata[2], system_i/axis2vga_0/inst/s_axis_tdata[3], system_i/axis2vga_0/inst/s_axis_tdata[4], system_i/axis2vga_0/inst/s_axis_tdata[5], system_i/axis2vga_0/inst/s_axis_tdata[6], system_i/axis2vga_0/inst/s_axis_tdata[7], system_i/axis2vga_0/inst/video_data_o[0], system_i/axis2vga_0/inst/video_data_o[1], system_i/axis2vga_0/inst/video_data_o[2], system_i/axis2vga_0/inst/video_data_o[3], system_i/axis2vga_0/inst/video_data_o[8], system_i/axis2vga_0/inst/video_data_o[9], system_i/axis2vga_0/inst/video_data_o[10] (the first 15 of 20 listed).
+Related violations: <none>
+
+

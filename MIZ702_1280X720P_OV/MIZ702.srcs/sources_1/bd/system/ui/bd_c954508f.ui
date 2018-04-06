@@ -1,0 +1,80 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 750 -defaultsOSRD
+preplace port cmos_sclk_o -pg 1 -y 20 -defaultsOSRD -left
+preplace port cmos_xclk_o -pg 1 -y 60 -defaultsOSRD -left
+preplace port VGA_VS -pg 1 -y 240 -defaultsOSRD
+preplace port cmos_pclk_i -pg 1 -y 200 -defaultsOSRD
+preplace port cmos_vsync_i -pg 1 -y 160 -defaultsOSRD
+preplace port cmos_href_i -pg 1 -y 180 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 770 -defaultsOSRD
+preplace port cmos_sdat_io -pg 1 -y 40 -defaultsOSRD -left
+preplace port VGA_HS -pg 1 -y 220 -defaultsOSRD
+preplace portBus VGA_D -pg 1 -y 200 -defaultsOSRD
+preplace portBus cmos_data_i -pg 1 -y 220 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 5 -y 260 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 4 -y 570 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 3 -y 170 -defaultsOSRD
+preplace inst video_lock_monitor -pg 1 -lvl 3 -y 450 -defaultsOSRD
+preplace inst rst_processing_system7_0_100M -pg 1 -lvl 1 -y 930 -defaultsOSRD
+preplace inst OV5640_IP_ML_0 -pg 1 -lvl 1 -y 180 -defaultsOSRD
+preplace inst CLK_VIDEO_OUT_GEN -pg 1 -lvl 3 -y 610 -defaultsOSRD
+preplace inst v_vid_in_axi4s_0 -pg 1 -lvl 2 -y 200 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 4 -y 850 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 2 -y 710 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -y 870 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 5 1 NJ
+preplace netloc cmos_href_i_1 1 0 1 NJ
+preplace netloc v_axi4s_vid_out_0_vid_data 1 5 1 NJ
+preplace netloc CLK_VIDEO_OUT_GEN_locked 1 1 4 350 370 NJ 370 1340 310 NJ
+preplace netloc processing_system7_0_axi_periph_M03_AXI 1 2 1 830
+preplace netloc v_vid_in_axi4s_0_m_axis_video_tvalid 1 2 1 780
+preplace netloc v_axi4s_vid_out_0_vid_hsync 1 5 1 NJ
+preplace netloc axi_vdma_0_M_AXI_MM2S 1 3 1 1330
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 5 370 380 NJ 380 NJ 380 1630J 460 2120
+preplace netloc OV7725_IP_ML_0_rgb_o 1 1 1 320
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 6 -40 1050 NJ 1050 NJ 1050 NJ 1050 NJ 1050 2120
+preplace netloc axi_mem_intercon_M00_AXI 1 4 1 1640
+preplace netloc axi_vdma_0_m_axis_mm2s_tvalid 1 3 2 NJ 200 1620
+preplace netloc axi_vdma_0_m_axis_mm2s_tdata 1 3 2 NJ 120 1660
+preplace netloc OV7725_IP_ML_0_de_o 1 1 1 330
+preplace netloc processing_system7_0_axi_periph_M02_AXI 1 2 1 810
+preplace netloc v_vid_in_axi4s_0_m_axis_video_tuser 1 2 1 760
+preplace netloc OV5640_IP_ML_0_cmos_sclk_o 1 0 2 NJ 20 330
+preplace netloc cmos_pclk_i_1 1 0 1 NJ
+preplace netloc OV7725_IP_ML_0_vs_o 1 1 1 N
+preplace netloc v_axi4s_vid_out_0_locked 1 3 3 1320J 420 1640J 440 2120
+preplace netloc rst_processing_system7_0_100M_peripheral_aresetn 1 1 3 330 930 840 860 1300
+preplace netloc v_vid_in_axi4s_0_m_axis_video_tlast 1 2 1 740
+preplace netloc axi_vdma_0_m_axis_mm2s_tuser 1 3 2 NJ 180 1630
+preplace netloc OV5640_IP_ML_0_cmos_xclk_o 1 0 2 NJ 60 310
+preplace netloc CLK_VIDEO_OUT_GEN_clk_out1 1 1 4 360 350 830 350 1310 350 1660
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 3 3 1360 440 1620J 450 2130
+preplace netloc processing_system7_0_FIXED_IO 1 5 1 NJ
+preplace netloc CLK_VIDEO_OUT_GEN_clk_out2 1 0 4 -40 360 NJ 360 NJ 360 1290
+preplace netloc axi_vdma_0_s_axis_s2mm_tready 1 2 1 750
+preplace netloc v_vid_in_axi4s_0_m_axis_video_tdata 1 2 1 730
+preplace netloc v_axi4s_vid_out_0_s_axis_video_tready 1 3 2 NJ 160 1640
+preplace netloc cmos_vsync_i_1 1 0 1 NJ
+preplace netloc OV7725_IP_ML_0_clk_date_o 1 1 2 340 60 790
+preplace netloc Net 1 0 2 NJ 40 320
+preplace netloc cmos_data_i_1 1 0 1 NJ
+preplace netloc rst_processing_system7_0_100M_interconnect_aresetn 1 1 3 310 920 850J 820 N
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 -40 840 320 910 800 800 1340 1000 1640 1040 2130
+preplace netloc axi_vdma_0_M_AXI_S2MM 1 3 1 1300
+preplace netloc v_tc_0_vtiming_out 1 4 1 1650
+preplace netloc axi_vdma_0_m_axis_mm2s_tlast 1 3 2 NJ 140 1650
+preplace netloc OV7725_IP_ML_0_hs_o 1 1 1 N
+preplace netloc v_axi4s_vid_out_0_vid_vsync 1 5 1 NJ
+preplace netloc processing_system7_0_axi_periph_M04_AXI 1 2 1 770
+preplace netloc processing_system7_0_axi_periph_M01_AXI 1 2 2 820 520 1350J
+levelinfo -pg 1 -60 140 550 1080 1490 1890 2150 -top -10 -bot 1060
+",
+}
+{
+   da_axi4_cnt: "8",
+   da_board_cnt: "2",
+   da_ps7_cnt: "1",
+}

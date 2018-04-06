@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<wave_config>
+	<wave_state>
+	</wave_state>
+	<db_ref_list>
+		<db_ref path="E:/E_work/XILINXDesign/2016/Miz702/Miz702/15_Study/CH28/MIZ702_640X480P/MIZ702.hw/hw_1/wave/hw_ila_data_3/hw_ila_data_3.wdb" id="1" type="auto">
+			<top_modules>
+				<top_module name="top">
+				</top_module>
+			</top_modules>
+		</db_ref>
+	</db_ref_list>
+	<WVObjectSize size="7">
+	</WVObjectSize>
+	<wvobject fp_name="system_i/v_vid_in_axi4s_0_video_out_TDATA_1" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">system_i/v_vid_in_axi4s_0_video_out_TDATA_1[9:2]</obj_property>
+		<obj_property name="ObjectShortName">system_i/v_vid_in_axi4s_0_video_out_TDATA_1[9:2]</obj_property>
+	</wvobject>
+	<wvobject fp_name="system_i/v_vid_in_axi4s_0_video_out_TDATA_2" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">system_i/v_vid_in_axi4s_0_video_out_TDATA_2[19:12]</obj_property>
+		<obj_property name="ObjectShortName">system_i/v_vid_in_axi4s_0_video_out_TDATA_2[19:12]</obj_property>
+	</wvobject>
+	<wvobject fp_name="system_i/v_vid_in_axi4s_0_video_out_TDATA" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">system_i/v_vid_in_axi4s_0_video_out_TDATA[29:22]</obj_property>
+		<obj_property name="ObjectShortName">system_i/v_vid_in_axi4s_0_video_out_TDATA[29:22]</obj_property>
+	</wvobject>
+	<wvobject fp_name="system_i/v_vid_in_axi4s_0_video_out_TLAST" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system_i/v_vid_in_axi4s_0_video_out_TLAST</obj_property>
+		<obj_property name="ObjectShortName">system_i/v_vid_in_axi4s_0_video_out_TLAST</obj_property>
+	</wvobject>
+	<wvobject fp_name="system_i/v_vid_in_axi4s_0_video_out_TREADY" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system_i/v_vid_in_axi4s_0_video_out_TREADY</obj_property>
+		<obj_property name="ObjectShortName">system_i/v_vid_in_axi4s_0_video_out_TREADY</obj_property>
+	</wvobject>
+	<wvobject fp_name="system_i/v_vid_in_axi4s_0_video_out_TUSER" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system_i/v_vid_in_axi4s_0_video_out_TUSER</obj_property>
+		<obj_property name="ObjectShortName">system_i/v_vid_in_axi4s_0_video_out_TUSER</obj_property>
+	</wvobject>
+	<wvobject fp_name="system_i/v_vid_in_axi4s_0_video_out_TVALID" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system_i/v_vid_in_axi4s_0_video_out_TVALID</obj_property>
+		<obj_property name="ObjectShortName">system_i/v_vid_in_axi4s_0_video_out_TVALID</obj_property>
+	</wvobject>
+</wave_config>
+

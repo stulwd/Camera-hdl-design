@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sat Aug 13 19:31:34 2016
+# Process ID: 7564
+# Current directory: D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/OV5640_IP_ML.runs/synth_1
+# Command line: vivado.exe -log OV5640_IP_ML.vds -mode batch -messageDb vivado.pb -notrace -source OV5640_IP_ML.tcl
+# Log file: D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/OV5640_IP_ML.runs/synth_1/OV5640_IP_ML.vds
+# Journal file: D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/OV5640_IP_ML.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source OV5640_IP_ML.tcl -notrace

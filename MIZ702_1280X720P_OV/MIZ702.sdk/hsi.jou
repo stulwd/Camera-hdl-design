@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# hsi v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# 
+# Start of session at: Fri Jan 26 22:00:43 2018
+# Process ID: 3668
+# Current directory: D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.sdk
+# Command line: hsi.exe -mode tcl
+# Log file: D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.sdk/hsi.log
+# Journal file: D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.sdk\hsi.jou
+#-----------------------------------------------------------
+open
+open_hw_design D:\zynq7000\zynq\vivado_examples\FPGA_Part\CodeSrc\CH29\MIZ702_1280X720P_OV\MIZ702.sdk\system_wrapper_hw_platform_2/system.hdf
+open_hw_design D:\zynq7000\zynq\vivado_examples\FPGA_Part\CodeSrc\CH29\MIZ702_1280X720P_OV\MIZ702.sdk\system_wrapper_hw_platform_2\system.hdf
+open_hw_design D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.sdk/system_wrapper_hw_platform_2/system.hdf
+set_repo_path D:/sw_repo/device-tree-xlnx-xilinx-v2017.4
+set_repo_path D:/sw_repo/device-tree-xlnx-xilinx-v2017.4
+set_repo_path D:/sw_repo/device-tree-xlnx-xilinx-v2017.4
+create_sw_design device-tree -os device-tree -proc ps7_cortexa9_0

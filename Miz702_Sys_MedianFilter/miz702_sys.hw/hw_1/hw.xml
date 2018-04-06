@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2015.4 (64-bit)                     -->
+<!--                                                              -->
+<!-- Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="1">
+  <device name="xc7z020_1" gui_info="dashboard1=hw_ila_1[xc7z020_1/hw_ila_1/Waveform=ILA_WAVE_1;xc7z020_1/hw_ila_1/Capture Setup=ILA_CAPTURE_1;xc7z020_1/hw_ila_1/Status=ILA_STATUS_1;xc7z020_1/hw_ila_1/Trigger Setup=ILA_TRIGGER_1;xc7z020_1/hw_ila_1/Settings=ILA_SETTINGS_1;]"/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7z020_1" gui_info="">
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/debug_nets.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/system_wrapper.bit"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_ila" gui_info="">
+    <Object name="u_ila_0" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+    <Object name="u_ila_0_0" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_probe" gui_info="">
+    <Object name="system_i/axis2vga_0/inst/s_axis_tvalid" gui_info="Trigger Setup=0"/>
+    <Object name="system_i/miz702_vtc_0_fsync_o" gui_info=""/>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="system_i/axis2vga_0/inst/active_video_i"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="system_i/axis2vga_0/inst/active_video_in"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="system_i/axis2vga_0/inst/read_fifo_full_int"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[23]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[22]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[21]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[20]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[19]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[18]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[17]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[16]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[15]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[14]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[13]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[12]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[11]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[10]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[9]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[8]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[7]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[6]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[5]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[4]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[3]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[2]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[1]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[31]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[30]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[29]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[28]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[27]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[26]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[25]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[24]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[23]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[22]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[21]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[20]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[19]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[18]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[17]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[16]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[15]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[14]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[13]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[12]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[11]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[10]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[9]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[8]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[7]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[6]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[5]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[4]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[3]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[2]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[1]"/>
+        <net name="system_i/axis2vga_0/inst/s_axis_tdata[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="system_i/axis2vga_0/inst/s_axis_tready"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;h1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;h1"/>
+      </probeOptions>
+      <nets>
+        <net name="system_i/axis2vga_0/inst/s_axis_tvalid"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="system_i/axis2vga_0/inst/video_data_o[23]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[22]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[21]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[20]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[19]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[18]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[17]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[16]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[15]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[14]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[13]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[12]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[11]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[10]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[9]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[8]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[7]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[6]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[5]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[4]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[3]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[2]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[1]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_o[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="system_i/axis2vga_0/inst/video_data_out[23]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[22]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[21]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[20]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[19]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[18]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[17]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[16]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[15]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[14]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[13]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[12]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[11]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[10]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[9]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[8]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[7]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[6]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[5]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[4]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[3]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[2]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[1]"/>
+        <net name="system_i/axis2vga_0/inst/video_data_out[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="system_i/miz702_vtc_0/hsync_o"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="system_i/miz702_vtc_0/vsync_o"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="system_i/miz702_vtc_0_fsync_o"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

@@ -1,0 +1,40 @@
+{
+   guistr: "# # String gsaved with Nlview 6.5.5  2015-06-26 bk=1.3371 VDI=38 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 40 -defaultsOSRD
+preplace port VGA_VS -pg 1 -y 530 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 60 -defaultsOSRD
+preplace port VGA_HS -pg 1 -y 510 -defaultsOSRD
+preplace portBus VGA_D -pg 1 -y 590 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 3 -y 380 -defaultsOSRD
+preplace inst axis2vga_0 -pg 1 -lvl 4 -y 400 -defaultsOSRD
+preplace inst miz702_vtc_0 -pg 1 -lvl 5 -y 550 -defaultsOSRD
+preplace inst rst_processing_system7_0_25M -pg 1 -lvl 1 -y 360 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 4 -y 140 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 2 -y 410 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -y 120 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 5 1 NJ
+preplace netloc processing_system7_0_axi_periph_M00_AXI 1 2 1 660
+preplace netloc axi_vdma_0_M_AXI_MM2S 1 3 1 1040
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 5 380 550 NJ 550 NJ 550 NJ 330 1820
+preplace netloc rst_processing_system7_0_25M_interconnect_aresetn 1 1 3 350 120 NJ 120 NJ
+preplace netloc axi_vdma_0_M_AXIS_MM2S 1 3 1 N
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 6 20 260 NJ 260 NJ 260 NJ 260 NJ 260 1790
+preplace netloc miz702_vtc_0_vsync_o 1 5 1 NJ
+preplace netloc axi_mem_intercon_M00_AXI 1 4 1 1360
+preplace netloc miz702_vtc_0_active_video_o 1 3 3 1060 480 NJ 430 1800
+preplace netloc axis2vga_0_video_data_out 1 4 1 1360
+preplace netloc miz702_vtc_0_hsync_o 1 5 1 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 5 1 NJ
+preplace netloc rst_processing_system7_0_25M_peripheral_aresetn1 1 1 4 370 570 680 520 1050 520 NJ
+preplace netloc miz702_vtc_0_fsync_o 1 2 4 690 490 NJ 490 NJ 440 1790
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 30 450 360 560 670 500 1030 20 1370 250 1800
+preplace netloc miz702_vtc_0_data_o 1 5 1 NJ
+preplace netloc processing_system7_0_axi_periph_M01_AXI 1 2 3 660 510 NJ 510 NJ
+levelinfo -pg 1 0 190 520 860 1200 1590 1840 -top 0 -bot 660
+",
+}
+{
+   da_axi4_cnt: "7",
+   da_ps7_cnt: "1",
+}

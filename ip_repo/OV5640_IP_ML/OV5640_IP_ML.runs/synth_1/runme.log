@@ -1,0 +1,438 @@
+
+*** Running vivado
+    with args -log OV5640_IP_ML.vds -m64 -mode batch -messageDb vivado.pb -notrace -source OV5640_IP_ML.tcl
+
+
+****** Vivado v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source OV5640_IP_ML.tcl -notrace
+Command: synth_design -top OV5640_IP_ML -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+WARNING: [Synth 8-2611] redeclaration of ansi port clk_date_o is not allowed [D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/SRC/cmos_decode_v1.v:129]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 287.930 ; gain = 115.797
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'OV5640_IP_ML' [D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/SRC/OV5640_ML_IP.v:21]
+INFO: [Synth 8-638] synthesizing module 'i2c_timing_ctrl' [D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/SRC/i2c_timing_ctrl.v:31]
+	Parameter CLK_FREQ bound to: 25000000 - type: integer 
+	Parameter I2C_FREQ bound to: 10000 - type: integer 
+	Parameter DELAY_TOP bound to: 25000 - type: integer 
+	Parameter I2C_IDLE bound to: 5'b00000 
+	Parameter I2C_WR_START bound to: 5'b00001 
+	Parameter I2C_WR_IDADDR bound to: 5'b00010 
+	Parameter I2C_WR_ACK1 bound to: 5'b00011 
+	Parameter I2C_WR_REGADDR bound to: 5'b00100 
+	Parameter I2C_WR_ACK2 bound to: 5'b00101 
+	Parameter I2C_WR_REGADDR2 bound to: 5'b00110 
+	Parameter I2C_WR_ACK2A bound to: 5'b00111 
+	Parameter I2C_WR_REGDATA bound to: 5'b01000 
+	Parameter I2C_WR_ACK3 bound to: 5'b01001 
+	Parameter I2C_WR_STOP bound to: 5'b01010 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/SRC/i2c_timing_ctrl.v:262]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/SRC/i2c_timing_ctrl.v:339]
+INFO: [Synth 8-256] done synthesizing module 'i2c_timing_ctrl' (1#1) [D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/SRC/i2c_timing_ctrl.v:31]
+INFO: [Synth 8-638] synthesizing module 'I2C_OV5640_RGB565_Config' [D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/SRC/I2C_OV5640_RGB565_Config.v:21]
+INFO: [Synth 8-256] done synthesizing module 'I2C_OV5640_RGB565_Config' (2#1) [D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/SRC/I2C_OV5640_RGB565_Config.v:21]
+INFO: [Synth 8-638] synthesizing module 'cmos_decode_v1' [D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/SRC/cmos_decode_v1.v:23]
+	Parameter CMOS_FRAME_WAITCNT bound to: 6'b001111 
+INFO: [Synth 8-256] done synthesizing module 'cmos_decode_v1' (3#1) [D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/SRC/cmos_decode_v1.v:23]
+WARNING: [Synth 8-387] label required on module instance [D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/SRC/OV5640_ML_IP.v:110]
+INFO: [Synth 8-638] synthesizing module 'count_reset_v1' [D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/SRC/count_reset_v1.v:23]
+	Parameter num bound to: 20'b11111111111111110000 
+INFO: [Synth 8-256] done synthesizing module 'count_reset_v1' (4#1) [D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/SRC/count_reset_v1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'OV5640_IP_ML' (5#1) [D:/MIZ702/CH29/ip_repo/OV5640_IP_ML/SRC/OV5640_ML_IP.v:21]
+WARNING: [Synth 8-3917] design OV5640_IP_ML has port rgb_o[18] driven by constant 0
+WARNING: [Synth 8-3917] design OV5640_IP_ML has port rgb_o[17] driven by constant 0
+WARNING: [Synth 8-3917] design OV5640_IP_ML has port rgb_o[16] driven by constant 0
+WARNING: [Synth 8-3917] design OV5640_IP_ML has port rgb_o[9] driven by constant 0
+WARNING: [Synth 8-3917] design OV5640_IP_ML has port rgb_o[8] driven by constant 0
+WARNING: [Synth 8-3917] design OV5640_IP_ML has port rgb_o[2] driven by constant 0
+WARNING: [Synth 8-3917] design OV5640_IP_ML has port rgb_o[1] driven by constant 0
+WARNING: [Synth 8-3917] design OV5640_IP_ML has port rgb_o[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 306.816 ; gain = 134.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 306.816 ; gain = 134.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 306.816 ; gain = 134.684
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'i2c_timing_ctrl'
+INFO: [Synth 8-5546] ROM "delay_done" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_transfer_en0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_capture_en0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "i2c_sdat_out" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "i2c_stream_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "i2c_wdata" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "i2c_ack2a" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_ack3" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_ack2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_ack1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_ack" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i2c_transfer_end" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                I2C_IDLE |                             0000 |                            00000
+            I2C_WR_START |                             0001 |                            00001
+           I2C_WR_IDADDR |                             0010 |                            00010
+             I2C_WR_ACK1 |                             0011 |                            00011
+          I2C_WR_REGADDR |                             0100 |                            00100
+             I2C_WR_ACK2 |                             0101 |                            00101
+         I2C_WR_REGADDR2 |                             0110 |                            00110
+            I2C_WR_ACK2A |                             0111 |                            00111
+          I2C_WR_REGDATA |                             1000 |                            01000
+             I2C_WR_ACK3 |                             1001 |                            01001
+             I2C_WR_STOP |                             1010 |                            01010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'i2c_timing_ctrl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 365.680 ; gain = 193.547
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	  12 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	  11 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 9     
+	  12 Input      4 Bit        Muxes := 1     
+	  11 Input      4 Bit        Muxes := 2     
+	  22 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 23    
+	   7 Input      1 Bit        Muxes := 10    
+	  12 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module i2c_timing_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+	  12 Input      8 Bit        Muxes := 1     
+	  11 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 7     
+	  12 Input      4 Bit        Muxes := 1     
+	  11 Input      4 Bit        Muxes := 2     
+	  22 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 22    
+	   7 Input      1 Bit        Muxes := 10    
+	  12 Input      1 Bit        Muxes := 4     
+Module cmos_decode_v1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module count_reset_v1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 461.477 ; gain = 289.344
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "u_i2c_timing_ctrl/delay_done" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u_i2c_timing_ctrl/i2c_transfer_en0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "u_i2c_timing_ctrl/i2c_capture_en0" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design OV5640_IP_ML has port rgb_o[18] driven by constant 0
+WARNING: [Synth 8-3917] design OV5640_IP_ML has port rgb_o[17] driven by constant 0
+WARNING: [Synth 8-3917] design OV5640_IP_ML has port rgb_o[16] driven by constant 0
+WARNING: [Synth 8-3917] design OV5640_IP_ML has port rgb_o[9] driven by constant 0
+WARNING: [Synth 8-3917] design OV5640_IP_ML has port rgb_o[8] driven by constant 0
+WARNING: [Synth 8-3917] design OV5640_IP_ML has port rgb_o[2] driven by constant 0
+WARNING: [Synth 8-3917] design OV5640_IP_ML has port rgb_o[1] driven by constant 0
+WARNING: [Synth 8-3917] design OV5640_IP_ML has port rgb_o[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 462.754 ; gain = 290.621
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 462.754 ; gain = 290.621
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------------------+------------+---------------+----------------+
+|Module Name              | RTL Object | Depth x Width | Implemented As | 
++-------------------------+------------+---------------+----------------+
+|I2C_OV5640_RGB565_Config | rom        | 1024x23       | LUT            | 
+|OV5640_IP_ML             | extrom     | 1024x23       | Block RAM      | 
++-------------------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_16/\u_i2c_timing_ctrl/i2c_config_index_reg[9] )
+WARNING: [Synth 8-3332] Sequential element (\u_i2c_timing_ctrl/i2c_config_index_reg[9] ) is unused and will be removed from module OV5640_IP_ML.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 482.348 ; gain = 310.215
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 482.348 ; gain = 310.215
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 482.348 ; gain = 310.215
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance \u_i2c_timing_ctrl/i2c_config_index_reg_rep  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 482.652 ; gain = 310.520
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 482.652 ; gain = 310.520
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 482.652 ; gain = 310.520
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 482.652 ; gain = 310.520
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 482.652 ; gain = 310.520
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 482.652 ; gain = 310.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 482.652 ; gain = 310.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 482.652 ; gain = 310.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 482.652 ; gain = 310.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register:
++-------------+------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name  | RTL Name                           | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++-------------+------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|OV5640_IP_ML | u_i2c_timing_ctrl/RESETn_reg[4]    | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|OV5640_IP_ML | cmos_decode_v1_u0/rst_n_reg_reg[4] | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++-------------+------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     2|
+|2     |CARRY4   |    14|
+|3     |LUT1     |    57|
+|4     |LUT2     |    20|
+|5     |LUT3     |    25|
+|6     |LUT4     |    21|
+|7     |LUT5     |    32|
+|8     |LUT6     |    44|
+|9     |MUXF7    |     1|
+|10    |RAMB36E1 |     1|
+|11    |SRL16E   |     2|
+|12    |FDRE     |   108|
+|13    |FDSE     |    22|
+|14    |IBUF     |    12|
+|15    |IOBUF    |     1|
+|16    |OBUF     |    30|
++------+---------+------+
+
+Report Instance Areas: 
++------+--------------------+----------------+------+
+|      |Instance            |Module          |Cells |
++------+--------------------+----------------+------+
+|1     |top                 |                |   392|
+|2     |  cmos_decode_v1_u0 |cmos_decode_v1  |    85|
+|3     |  nolabel_line110   |count_reset_v1  |    51|
+|4     |  u_i2c_timing_ctrl |i2c_timing_ctrl |   211|
++------+--------------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 482.652 ; gain = 310.520
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 19 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 482.652 ; gain = 265.457
+Synthesis Optimization Complete : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 482.652 ; gain = 310.520
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 28 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+50 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 543.016 ; gain = 353.699
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 543.016 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 13 19:31:43 2016...

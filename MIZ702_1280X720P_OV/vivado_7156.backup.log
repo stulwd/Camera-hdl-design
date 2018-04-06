@@ -1,0 +1,81 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Jan 19 16:58:30 2018
+# Process ID: 7156
+# Current directory: D:/zynq7000资料/zynq/vivado视频代码 fpgapart里面/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9508 D:\zynq7000资料\zynq\vivado视频代码 fpgapart里面\FPGA_Part\CodeSrc\CH29\MIZ702_1280X720P_OV\MIZ702.xpr
+# Log file: D:/zynq7000资料/zynq/vivado视频代码 fpgapart里面/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/vivado.log
+# Journal file: D:/zynq7000资料/zynq/vivado视频代码 fpgapart里面/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/zynq7000资料/zynq/vivado视频代码 fpgapart里面/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/zynq7000资料/zynq/vivado视频代码 fpgapart里面/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV'
+INFO: [Project 1-313] Project file moved from 'D:/MIZ702/CH29/MIZ702_1280X720P_OV' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/zynq7000资料/zynq/vivado视频代码 fpgapart里面/FPGA_Part/CodeSrc/CH29/ip_repo/OV5640_IP_ML'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'system.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+system_axi_gpio_0_0
+system_processing_system7_0_0
+system_rst_processing_system7_0_100M_0
+system_v_axi4s_vid_out_0_0
+system_v_tc_0_0
+system_xbar_1
+system_clk_wiz_0_0
+system_xbar_0
+system_auto_pc_0
+system_processing_system7_0_axi_periph_0
+system_axi_vdma_0_0
+system_axi_mem_intercon_0
+system_v_vid_in_axi4s_0_0
+system_ila_0_0
+system_auto_cc_0
+system_auto_pc_1
+system_auto_us_0
+
+INFO: [Project 1-230] Project 'MIZ702.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 855.734 ; gain = 243.148
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+open_bd_design {D:/zynq7000资料/zynq/vivado视频代码 fpgapart里面/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_0
+Adding cell -- xilinx.com:ip:clk_wiz:5.2 - CLK_VIDEO_OUT_GEN
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_100M
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - video_lock_monitor
+Adding cell -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_0
+Adding cell -- xilinx.com:ip:v_vid_in_axi4s:4.0 - v_vid_in_axi4s_0
+Adding cell -- xilinx.com:ip:ila:6.0 - ila_0
+Adding cell -- xilinx.com:user:OV5640_IP_ML:1.0 - OV5640_IP_ML_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /CLK_VIDEO_OUT_GEN/locked(undef) and /v_tc_0/clken(ce)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /CLK_VIDEO_OUT_GEN/locked(undef) and /v_tc_0/s_axi_aresetn(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /CLK_VIDEO_OUT_GEN/locked(undef) and /v_axi4s_vid_out_0/aresetn(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /CLK_VIDEO_OUT_GEN/locked(undef) and /v_vid_in_axi4s_0/aclken(ce)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /CLK_VIDEO_OUT_GEN/locked(undef) and /v_vid_in_axi4s_0/aresetn(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /CLK_VIDEO_OUT_GEN/locked(undef) and /v_vid_in_axi4s_0/vid_io_in_ce(ce)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /OV5640_IP_ML_0/clk_date_o(undef) and /v_vid_in_axi4s_0/aclk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /OV5640_IP_ML_0/clk_date_o(undef) and /axi_vdma_0/s_axis_s2mm_aclk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /OV5640_IP_ML_0/clk_date_o(undef) and /ila_0/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /CLK_VIDEO_OUT_GEN/clk_out2(clk) and /OV5640_IP_ML_0/CLK_i(undef)
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+WARNING: [BD 41-1731] Type mismatch between connected pins: /CLK_VIDEO_OUT_GEN/locked(undef) and /processing_system7_0_axi_periph/M01_ARESETN(rst)
+Successfully read diagram <system> from BD file <D:/zynq7000资料/zynq/vivado视频代码 fpgapart里面/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd>
+open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 919.949 ; gain = 63.855
+upgrade_ip [get_ips  {{d:/zynq7000×êá/zynq/vivadoêó′ú fpgapartà/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/ip/system_axi_mem_intercon_0/system_axi_mem_intercon_0.xc} {d:/zynq7000×êá/zynq/vivadoêó′ú fpgapartà/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/ip/system_ila_0_0/system_ila_0_0.xc} {d:/zynq7000×êá/zynq/vivadoêó′ú fpgapartà/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/ip/system_axi_vdma_0_0/system_axi_vdma_0_0.xc} {d:/zynq7000×êá/zynq/vivadoêó′ú fpgapartà/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/ip/system_v_axi4s_vid_out_0_0/system_v_axi4s_vid_out_0_0.xc} {d:/zynq7000×êá/zynq/vivadoêó′ú fpgapartà/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xc} {d:/zynq7000×êá/zynq/vivadoêó′ú fpgapartà/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/ip/system_processing_system7_0_axi_periph_0/system_processing_system7_0_axi_periph_0.xc} {d:/zynq7000×êá/zynq/vivadoêó′ú fpgapartà/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/ip/system_v_vid_in_axi4s_0_0/system_v_vid_in_axi4s_0_0.xc} {d:/zynq7000×êá/zynq/vivadoêó′ú fpgapartà/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/ip/system_v_tc_0_0/system_v_tc_0_0.xc} {d:/zynq7000×êá/zynq/vivadoêó′ú fpgapartà/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xc} {d:/zynq7000×êá/zynq/vivadoêó′ú fpgapartà/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0.xc} {d:/zynq7000×êá/zynq/vivadoêó′ú fpgapartà/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/ip/system_clk_wiz_0_0/system_clk_wiz_0_0.xc}}] -log ip_upgrade.log
+WARNING: [Coretcl 2-176] No IPs found
+ERROR: [Common 17-69] Command failed: No IP specified.  Please specify IP with 'objects'
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 19 17:01:58 2018...

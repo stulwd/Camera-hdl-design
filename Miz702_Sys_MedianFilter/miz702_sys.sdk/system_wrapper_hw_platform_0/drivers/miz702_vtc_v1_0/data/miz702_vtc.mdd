@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER miz702_vtc
+	OPTION supported_peripherals = (miz702_vtc);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = miz702_vtc;
+END DRIVER

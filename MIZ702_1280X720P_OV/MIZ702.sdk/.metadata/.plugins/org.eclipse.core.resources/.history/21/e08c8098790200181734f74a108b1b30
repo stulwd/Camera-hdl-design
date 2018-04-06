@@ -1,0 +1,426 @@
+/*******************************************************************************
+ *
+ * Copyright (C) 2015 Xilinx, Inc.  All rights reserved.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * Use of the Software is limited solely to applications:
+ * (a) running on a Xilinx device, or
+ * (b) that interact with a Xilinx device through a bus or interconnect.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * XILINX  BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
+ * OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ *
+ * Except as contained in this notice, the name of the Xilinx shall not be used
+ * in advertising or otherwise to promote the sale, use or other dealings in
+ * this Software without prior written authorization from Xilinx.
+ *
+*******************************************************************************/
+/*****************************************************************************/
+/**
+*
+* @file main.c
+*
+* This file demonstrates the example usage of TPG IP available in catalogue
+* Please refer v_tpg example design guide for details on HW setup
+*
+* <pre>
+* MODIFICATION HISTORY:
+*
+* Ver   Who    Date     Changes
+* ----- ---- -------- -------------------------------------------------------
+* 1.00  vyc   09/11/15   Initial Release
+* 1.10  rco   10/05/15   Update to support multiple PPC configurations
+* </pre>
+*
+******************************************************************************/
+
+#include "xparameters.h"
+#include "sleep.h"
+#include "xv_tpg.h"
+#include "xvtc.h"
+#include "xvidc.h"
+#include "xil_cache.h"
+
+/*** Include file ***/
+#include "xparameters.h"
+#include "xstatus.h"
+//#include "xintc.h"
+#include "xil_exception.h"
+#include "xil_assert.h"
+#include "xaxivdma.h"
+#include "xaxivdma_i.h"
+extern const unsigned char gImage_miz702_rgba[600000];
+extern const unsigned char gImage_mm[1228800];
+/*** Global Variables ***/
+unsigned int srcBuffer = (XPAR_PS7_DDR_0_S_AXI_BASEADDR  + 0x1000000);
+
+/* Instance of the Interrupt Controller */
+//static XIntc Intc;
+
+int run_triple_frame_buffer(XAxiVdma* InstancePtr, int DeviceId, int hsize,
+		int vsize, int buf_base_addr, int number_frame_count,
+		int enable_frm_cnt_intr);
+
+//static int SetupIntrSystem(XAxiVdma *AxiVdmaPtr, u16 ReadIntrId,u16 WriteIntrId);
+
+XV_tpg_Config		*tpg_Config;
+XV_tpg				tpg;
+
+
+XVtc				vtc;
+XVtc_Config			*vtc_Config;
+XVtc_Timing			vtc_timing;
+
+u32 volatile		*gpio_hlsIpReset;
+u32 volatile		*gpio_videoLockMonitor;
+
+#define VideoClockGen_WriteReg(RegOffset, Data) \
+    Xil_Out32((XPAR_VIDEO_LOCK_MONITOR_BASEADDR) + (RegOffset), (u32)(Data))
+#define VideoClockGen_ReadReg(RegOffset) \
+    Xil_In32((XPAR_VIDEO_LOCK_MONITOR_BASEADDR) + (RegOffset))
+
+int driverInit()
+{
+	int status;
+	/*tpg_Config = XV_tpg_LookupConfig(XPAR_V_TPG_0_DEVICE_ID);
+	if(tpg_Config == NULL)
+	{
+		xil_printf("ERR:: TPG device not found\r\n");
+		return(XST_DEVICE_NOT_FOUND);
+	}
+	status = XV_tpg_CfgInitialize(&tpg, tpg_Config, tpg_Config->BaseAddress);
+	if(status != XST_SUCCESS)
+	{
+		xil_printf("ERR:: TPG Initialization failed %d\r\n", status);
+		return(XST_FAILURE);
+	}
+*/
+	vtc_Config = XVtc_LookupConfig(XPAR_V_TC_0_DEVICE_ID);
+	if(vtc_Config == NULL)
+	{
+		xil_printf("ERR:: VTC device not found\r\n");
+		return(XST_DEVICE_NOT_FOUND);
+	}
+	status = XVtc_CfgInitialize(&vtc, vtc_Config, vtc_Config->BaseAddress);
+	if(status != XST_SUCCESS)
+	{
+		xil_printf("ERR:: VTC Initialization failed %d\r\n", status);
+		return(XST_FAILURE);
+	}
+
+
+	return(XST_SUCCESS);
+}
+
+void videoIpConfig(XVidC_VideoMode videoMode)
+{
+	XVidC_VideoTiming const *timing = XVidC_GetTimingInfo(videoMode);
+	u16 PixelsPerClk;
+
+/*
+	XV_tpg_Set_height(&tpg, timing->VActive);
+	XV_tpg_Set_width(&tpg, timing->HActive);
+	XV_tpg_Set_colorFormat(&tpg, 0);
+	//XV_tpg_Set_bckgndId(&tpg, XTPG_BKGND_COLOR_BARS);
+	XV_tpg_Set_ovrlayId(&tpg, 0);
+	XV_tpg_Set_enableInput(&tpg, 1);
+	XV_tpg_Set_passthruStartX(&tpg, 0);
+	XV_tpg_Set_passthruStartY(&tpg, 0);
+	XV_tpg_Set_passthruEndX(&tpg, timing->HActive);
+	XV_tpg_Set_passthruEndY(&tpg, timing->VActive);
+	XV_tpg_WriteReg(tpg_Config->BaseAddress, XV_TPG_CTRL_ADDR_AP_CTRL, 0x81);
+*/
+	PixelsPerClk = 1;//tpg.Config.PixPerClk;
+
+	vtc_timing.HActiveVideo  = timing->HActive/PixelsPerClk;
+	vtc_timing.HFrontPorch   = timing->HFrontPorch/PixelsPerClk;
+	vtc_timing.HSyncWidth    = timing->HSyncWidth/PixelsPerClk;
+	vtc_timing.HBackPorch    = timing->HBackPorch/PixelsPerClk;
+	vtc_timing.HSyncPolarity = timing->HSyncPolarity;
+	vtc_timing.VActiveVideo  = timing->VActive;
+	vtc_timing.V0FrontPorch  = timing->F0PVFrontPorch;
+	vtc_timing.V0SyncWidth   = timing->F0PVSyncWidth;
+	vtc_timing.V0BackPorch   = timing->F0PVBackPorch;
+	vtc_timing.VSyncPolarity = timing->VSyncPolarity;
+	XVtc_SetGeneratorTiming(&vtc, &vtc_timing);
+	XVtc_Enable(&vtc);
+	XVtc_EnableGenerator(&vtc);
+	XVtc_RegUpdateEnable(&vtc);
+}
+
+int videoClockConfig(XVidC_VideoMode videoMode)
+{
+	u32 DIVCLK_DIVIDE = 4;
+	u32 CLKFBOUT_MULT = 37;
+	u32 CLKFBOUT_FRAC = 125;
+	u32 CLKOUT0_DIVIDE;
+	u32 CLKOUT0_FRAC;
+	u32 clock_config_reg_0;
+	u32 clock_config_reg_2;
+	u32 timeout;
+	u32 lock;
+	u16 PixelsPerClk, mode_index;
+
+    const int ClkOut_Frac[3][XVIDC_PPC_NUM_SUPPORTED] =
+    { {250, 500, 0  }, //1080p
+      {125, 250, 500}, //4K30
+      {0,   125, 250}  //4K60
+    };
+    const int ClkOut_Div[3][XVIDC_PPC_NUM_SUPPORTED] =
+    { {6, 12, 25}, //1080p
+      {3, 6 , 12}, //4K30
+      {0, 3 , 6 }  //4K60
+    };
+
+    /* Validate TPG Parameters */
+    Xil_AssertNonvoid((tpg.Config.PixPerClk == XVIDC_PPC_1) ||
+                      (tpg.Config.PixPerClk == XVIDC_PPC_2) ||
+                      (tpg.Config.PixPerClk == XVIDC_PPC_4));
+
+
+    mode_index = ((videoMode ==  XVIDC_VM_1080_60_P) ? 0 :
+                  (videoMode ==  XVIDC_VM_UHD_30_P)  ? 1 :
+                  (videoMode ==  XVIDC_VM_UHD_60_P)  ? 2 : 3);
+
+    if(mode_index > 2)
+    {
+      xil_printf("ERR:: Video Mode %s not supported\r\n", XVidC_GetVideoModeStr(videoMode));
+      return(XST_FAILURE);
+    }
+
+    //map PPC to array index
+    PixelsPerClk = (tpg.Config.PixPerClk>>1);
+    CLKOUT0_FRAC   =  ClkOut_Frac[mode_index][PixelsPerClk];
+    CLKOUT0_DIVIDE =  ClkOut_Div[mode_index][PixelsPerClk];
+
+	clock_config_reg_0 = (1<<26) | (CLKFBOUT_FRAC<<16) | (CLKFBOUT_MULT<<8) | DIVCLK_DIVIDE;
+	clock_config_reg_2 = (1<<18) | (CLKOUT0_FRAC<<8) | CLKOUT0_DIVIDE;
+
+	VideoClockGen_WriteReg(0x200, clock_config_reg_0);
+	VideoClockGen_WriteReg(0x208, clock_config_reg_2);
+
+	sleep(1);
+
+
+	lock = VideoClockGen_ReadReg(0x4) & 0x1;
+	if(!lock) //check for lock
+	{
+		//Video Clock Generator not locked
+		VideoClockGen_WriteReg(0x25C, 0x7);
+		VideoClockGen_WriteReg(0x25C, 0x2);
+		timeout = 100000;
+		while(!lock)
+		{
+			lock = VideoClockGen_ReadReg(0x4) & 0x1;
+			--timeout;
+			if(!timeout)
+			{
+				print("ERR:: Video Clock Generator failed lock\r\n");
+				return(XST_FAILURE);
+			}
+		}
+
+	}
+	print("Video Clock Generator locked\r\n");
+
+	return(XST_SUCCESS);
+
+}
+
+void resetIp(void)
+{
+	*gpio_hlsIpReset = 0; //reset IPs
+
+	sleep(1);
+
+	*gpio_hlsIpReset = 1; // release reset
+
+	sleep(1);
+
+}
+extern const unsigned char gImage_beauty[1729536];
+
+
+void show_img(u32 x, u32 y, u32 disp_base_addr, const unsigned char * addr, u32 size_x, u32 size_y)
+{
+	//¼ÆËãÍ¼Æ¬ ×óÉÏ½Ç×ø±ê
+	u32 i=0;
+	u32 j=0;
+	u32 r,g,b;
+	u32 start_addr=disp_base_addr;
+	start_addr = disp_base_addr + 4*x + y*4*640;
+	for(j=0;j<size_y;j++)
+	{
+		for(i=0;i<size_x;i++)
+		{
+			b = *(addr+(i+j*size_x)*4+1);
+			g = *(addr+(i+j*size_x)*4+2);
+			r = *(addr+(i+j*size_x)*4+3);
+			Xil_Out32((start_addr+(i+j*640)*4),((r<<16)|(g<<8)|(b<<0)|0x0));
+		}
+	}
+	Xil_DCacheFlush();
+}
+int main()
+{
+	int status;	int i;
+	XVidC_VideoMode TestMode;
+
+	print("Start test\r\n");
+
+/*
+	   for(i=0;i<1228800;i++)
+	    {
+	    	Xil_Out32(srcBuffer+i,gImage_mm[i]);
+	    }
+		Xil_DCacheFlush();*/
+	int Status;
+
+	XAxiVdma InstancePtr;
+
+	xil_printf("Starting the first VDMA \n\r");
+
+	/* Calling the API to configure and start VDMA without frame counter interrupt */
+
+//	gpio_hlsIpReset = (u32*)XPAR_HLS_IP_RESET_BASEADDR;
+	gpio_videoLockMonitor = (u32*)XPAR_VIDEO_LOCK_MONITOR_BASEADDR;
+
+
+
+//	Status = run_triple_frame_buffer(&InstancePtr, 0, 1280, 720,
+//							srcBuffer, 100, 0);
+//		if (Status != XST_SUCCESS) {
+//			xil_printf("Transfer of frames failed with error = %d\r\n",Status);
+//			return XST_FAILURE;
+//		} else {
+//			xil_printf("Transfer of frames started \r\n");
+//		}
+
+
+	Xil_Out32((VDMA_BASEADDR + 0x000), 0x3); 		// enable circular mode
+	Xil_Out32((VDMA_BASEADDR + 0x05c), VIDEO_BASEADDR0); 	// start address
+	Xil_Out32((VDMA_BASEADDR + 0x060), VIDEO_BASEADDR0); 	// start address
+	Xil_Out32((VDMA_BASEADDR + 0x064), VIDEO_BASEADDR0); 	// start address
+	Xil_Out32((VDMA_BASEADDR + 0x058), (H_STRIDE*4)); 		// h offset (640 * 4) bytes
+	Xil_Out32((VDMA_BASEADDR + 0x054), (H_ACTIVE*4)); 		// h size (640 * 4) bytes
+	Xil_Out32((VDMA_BASEADDR + 0x050), V_ACTIVE); 			// v size (480)
+	for(i=0;i<8294400;i++)
+	{
+		Xil_Out32(VIDEO_BASEADDR1+i,0);
+	}
+
+
+
+	status = driverInit();
+	if(status != XST_SUCCESS) {
+		return(XST_FAILURE);
+	}
+
+	//resetIp();
+
+	if(*gpio_videoLockMonitor) {
+		print("ERR:: Video should not be locked\r\n");
+		return(XST_FAILURE);
+	}
+
+
+
+	TestMode = XVIDC_VM_1280x720_60_P;
+	/*xil_printf("\r\nTest: %s\r\n", XVidC_GetVideoModeStr(TestMode));
+	status = videoClockConfig(TestMode);
+	if(status != XST_SUCCESS) {
+		return(XST_FAILURE);
+	}*/
+	videoIpConfig(TestMode);
+
+	sleep(5);
+
+	if(!(*gpio_videoLockMonitor)) {
+		print("ERR:: Video Lock failed for 1280x720_60_P\r\n");
+		return(XST_FAILURE);
+	}
+	else {
+		print("1280x720_60_P passed\r\n");
+	}
+
+
+	/* Enabling the interrupt for second VDMA */
+	//SetupIntrSystem(&InstancePtr_1, XPAR_INTC_0_AXIVDMA_1_MM2S_INTROUT_VEC_ID,
+	//		XPAR_INTC_0_AXIVDMA_1_S2MM_INTROUT_VEC_ID);
+
+	while(1)
+	{
+			//show_img(0,0,srcBuffer,&gImage_beauty[0],563,768);
+			//sleep(5);
+			//show_img(0,0,srcBuffer,&gImage_miz702_rgba[0],375,400);
+			//sleep(5);
+
+	}
+/*
+	resetIp();
+
+	TestMode = XVIDC_VM_UHD_30_P;
+	xil_printf("\r\nTest: %s\r\n", XVidC_GetVideoModeStr(TestMode));
+	status = videoClockConfig(TestMode);
+	if(status != XST_SUCCESS){
+		return(XST_FAILURE);
+	}
+	videoIpConfig(TestMode);
+
+	sleep(1);
+
+	if(!(*gpio_videoLockMonitor)) {
+		print("ERR:: Video Lock failed for 4KP30\r\n");
+		return(XST_FAILURE);
+	}
+	else {
+		print("4KP30 passed\r\n\r\n");
+	}*/
+
+    /* Run 4k60 Test if supported by HW
+     * Check if TPG is configured for 2/4 Pixels/Clock
+     * Required to support 4K60
+     */
+	/*
+    if((tpg.Config.PixPerClk == XVIDC_PPC_2) ||
+       (tpg.Config.PixPerClk == XVIDC_PPC_4)) {
+
+      resetIp();
+
+      TestMode = XVIDC_VM_UHD_60_P;
+	  xil_printf("\r\nTest: %s\r\n", XVidC_GetVideoModeStr(TestMode));
+	  status = videoClockConfig(TestMode);
+	  if(status != XST_SUCCESS) {
+		return(XST_FAILURE);
+	  }
+	  videoIpConfig(TestMode);
+
+	  sleep(1);
+
+	  if(!(*gpio_videoLockMonitor)) {
+		print("ERR:: Video Lock failed for 4KP60\r\n");
+		return(XST_FAILURE);
+	  }
+	  else {
+		print("4KP60 passed\r\n\r\n");
+	  }
+    }
+    */
+	print("TEST PASS\r\n");
+
+	return 0;
+}

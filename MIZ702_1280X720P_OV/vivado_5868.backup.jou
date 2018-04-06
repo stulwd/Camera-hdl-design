@@ -1,0 +1,125 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Jan 19 17:03:33 2018
+# Process ID: 1676
+# Current directory: D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9844 D:\zynq7000\zynq\vivado_examples\FPGA_Part\CodeSrc\CH29\MIZ702_1280X720P_OV\MIZ702.xpr
+# Log file: D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/vivado.log
+# Journal file: D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.xpr
+open_bd_design {D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd}
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {system_v_vid_in_axi4s_0_0 system_ila_0_0 system_axi_mem_intercon_0 system_processing_system7_0_axi_periph_0 system_axi_vdma_0_0 system_clk_wiz_0_0 system_axi_gpio_0_0 system_processing_system7_0_0 system_v_tc_0_0 system_v_axi4s_vid_out_0_0 system_rst_processing_system7_0_100M_0}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {system_v_vid_in_axi4s_0_0 system_ila_0_0 system_axi_mem_intercon_0 system_processing_system7_0_axi_periph_0 system_axi_vdma_0_0 system_clk_wiz_0_0 system_axi_gpio_0_0 system_processing_system7_0_0 system_v_tc_0_0 system_v_axi4s_vid_out_0_0 system_rst_processing_system7_0_100M_0}] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+validate_bd_design
+delete_bd_objs [get_bd_intf_nets axi_vdma_0_M_AXIS_MM2S]
+startgroup
+set_property -dict [list CONFIG.c_m_axis_mm2s_tdata_width {24}] [get_bd_cells axi_vdma_0]
+endgroup
+delete_bd_objs [get_bd_intf_nets processing_system7_0_axi_periph_M04_AXI] [get_bd_intf_nets axi_vdma_0_M_AXI_S2MM] [get_bd_intf_nets v_vid_in_axi4s_0_video_out] [get_bd_intf_nets axi_vdma_0_M_AXI_MM2S] [get_bd_cells axi_vdma_0]
+undo
+undo
+undo
+regenerate_bd_layout
+regenerate_bd_layout
+delete_bd_objs [get_bd_intf_nets axi_vdma_0_M_AXIS_MM2S]
+startgroup
+set_property -dict [list CONFIG.c_m_axis_mm2s_tdata_width {24}] [get_bd_cells axi_vdma_0]
+endgroup
+connect_bd_net [get_bd_pins axi_vdma_0/m_axis_mm2s_tdata] [get_bd_pins v_axi4s_vid_out_0/s_axis_video_tdata]
+delete_bd_objs [get_bd_nets axi_vdma_0_m_axis_mm2s_tdata]
+undo
+connect_bd_net [get_bd_pins axi_vdma_0/m_axis_mm2s_tlast] [get_bd_pins v_axi4s_vid_out_0/s_axis_video_tlast]
+connect_bd_net [get_bd_pins axi_vdma_0/m_axis_mm2s_tready] [get_bd_pins v_axi4s_vid_out_0/s_axis_video_tready]
+connect_bd_net [get_bd_pins axi_vdma_0/m_axis_mm2s_tuser] [get_bd_pins v_axi4s_vid_out_0/s_axis_video_tuser]
+connect_bd_net [get_bd_pins axi_vdma_0/m_axis_mm2s_tvalid] [get_bd_pins v_axi4s_vid_out_0/s_axis_video_tvalid]
+regenerate_bd_layout
+save_bd_design
+validate_bd_design
+delete_bd_objs [get_bd_intf_nets v_vid_in_axi4s_0_video_out]
+connect_bd_net [get_bd_pins v_vid_in_axi4s_0/m_axis_video_tdata] [get_bd_pins axi_vdma_0/s_axis_s2mm_tdata]
+connect_bd_net [get_bd_pins v_vid_in_axi4s_0/m_axis_video_tlast] [get_bd_pins axi_vdma_0/s_axis_s2mm_tlast]
+connect_bd_net [get_bd_pins v_vid_in_axi4s_0/m_axis_video_tready] [get_bd_pins axi_vdma_0/s_axis_s2mm_tready]
+connect_bd_net [get_bd_pins v_vid_in_axi4s_0/m_axis_video_tuser] [get_bd_pins axi_vdma_0/s_axis_s2mm_tuser]
+connect_bd_net [get_bd_pins v_vid_in_axi4s_0/m_axis_video_tvalid] [get_bd_pins axi_vdma_0/s_axis_s2mm_tvalid]
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+save_bd_design
+validate_bd_design
+set_property part xc7z010clg400-1 [current_project]
+update_ip_catalog
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {system_v_vid_in_axi4s_0_0 system_ila_0_0 system_axi_mem_intercon_0 system_processing_system7_0_axi_periph_0 system_axi_vdma_0_0 system_clk_wiz_0_0 system_axi_gpio_0_0 system_processing_system7_0_0 system_v_tc_0_0 system_v_axi4s_vid_out_0_0 system_OV5640_IP_ML_0_0 system_rst_processing_system7_0_100M_0 system_auto_pc_4 system_auto_pc_3 system_auto_pc_1 system_auto_pc_2 system_auto_cc_0 system_auto_pc_0 system_auto_pc_5}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {system_v_vid_in_axi4s_0_0 system_ila_0_0 system_axi_mem_intercon_0 system_processing_system7_0_axi_periph_0 system_axi_vdma_0_0 system_clk_wiz_0_0 system_axi_gpio_0_0 system_processing_system7_0_0 system_v_tc_0_0 system_v_axi4s_vid_out_0_0 system_OV5640_IP_ML_0_0 system_rst_processing_system7_0_100M_0 system_auto_pc_4 system_auto_pc_3 system_auto_pc_1 system_auto_pc_2 system_auto_cc_0 system_auto_pc_0 system_auto_pc_5}] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+startgroup
+set_property -dict [list CONFIG.PCW_NAND_PERIPHERAL_ENABLE {1} CONFIG.PCW_NOR_PERIPHERAL_ENABLE {0} CONFIG.PCW_QSPI_PERIPHERAL_ENABLE {0} CONFIG.PCW_SD0_GRP_CD_ENABLE {0} CONFIG.PCW_SD0_GRP_WP_ENABLE {0} CONFIG.PCW_UART0_PERIPHERAL_ENABLE {1} CONFIG.PCW_UART0_UART0_IO {MIO 46 .. 47}] [get_bd_cells processing_system7_0]
+endgroup
+save_bd_design
+validate_bd_design
+report_ip_status -name ip_status 
+save_bd_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {VGA_D[23]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {VGA_D[23]} {VGA_D[22]} {VGA_D[21]} {VGA_D[20]} {VGA_D[19]} {VGA_D[18]} {VGA_D[17]} {VGA_D[16]} {VGA_D[15]} {VGA_D[14]} {VGA_D[13]} {VGA_D[12]} {VGA_D[11]} {VGA_D[10]} {VGA_D[9]} {VGA_D[8]} {VGA_D[7]} {VGA_D[6]} {VGA_D[5]} {VGA_D[4]} {VGA_D[3]} {VGA_D[2]} {VGA_D[1]} {VGA_D[0]}]]
+save_constraints
+refresh_design
+open_bd_design {D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd}
+delete_bd_objs [get_bd_nets v_vid_in_axi4s_0_overflow] [get_bd_cells ila_0]
+regenerate_bd_layout
+regenerate_bd_layout
+save_bd_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+open_bd_design {D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.srcs/sources_1/bd/system/system.bd}
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_design
+refresh_design
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_design
+set_property package_pin "" [get_ports [list  {VGA_D[21]}]]
+set_property STEPS.WRITE_BITSTREAM.TCL.PRE D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/write_bit_pre.tcl [get_runs impl_1]
+update_ip_catalog
+save_constraints
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+report_ip_status -name ip_status 
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+file copy -force D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.runs/impl_1/system_wrapper.sysdef D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.sdk/system_wrapper.hdf
+
+launch_sdk -workspace D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.sdk -hwspec D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/MIZ702.sdk/system_wrapper.hdf

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Jan 25 21:45:27 2018
+# Process ID: 5868
+# Log file: D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV/vivado.log
+# Journal file: D:/zynq7000/zynq/vivado_examples/FPGA_Part/CodeSrc/CH29/MIZ702_1280X720P_OV\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 25 21:49:30 2018...

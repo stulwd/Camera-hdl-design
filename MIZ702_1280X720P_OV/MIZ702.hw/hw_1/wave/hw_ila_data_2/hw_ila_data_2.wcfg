@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<wave_config>
+	<wave_state>
+	</wave_state>
+	<db_ref_list>
+		<db_ref path="E:/E_work/XILINXDesign/2016/Miz702/Miz702/15_Study/CH28/MIZ702_640X480P/MIZ702.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1" type="auto">
+			<top_modules>
+				<top_module name="top">
+				</top_module>
+			</top_modules>
+		</db_ref>
+	</db_ref_list>
+	<WVObjectSize size="5">
+	</WVObjectSize>
+	<wvobject fp_name="system_i/axi_vdma_0_M_AXIS_MM2S_TDATA" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">system_i/axi_vdma_0_M_AXIS_MM2S_TDATA[31:0]</obj_property>
+		<obj_property name="ObjectShortName">system_i/axi_vdma_0_M_AXIS_MM2S_TDATA[31:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="system_i/axi_vdma_0_M_AXIS_MM2S_TLAST" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system_i/axi_vdma_0_M_AXIS_MM2S_TLAST</obj_property>
+		<obj_property name="ObjectShortName">system_i/axi_vdma_0_M_AXIS_MM2S_TLAST</obj_property>
+	</wvobject>
+	<wvobject fp_name="system_i/axi_vdma_0_M_AXIS_MM2S_TREADY" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system_i/axi_vdma_0_M_AXIS_MM2S_TREADY</obj_property>
+		<obj_property name="ObjectShortName">system_i/axi_vdma_0_M_AXIS_MM2S_TREADY</obj_property>
+	</wvobject>
+	<wvobject fp_name="system_i/axi_vdma_0_M_AXIS_MM2S_TUSER" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system_i/axi_vdma_0_M_AXIS_MM2S_TUSER</obj_property>
+		<obj_property name="ObjectShortName">system_i/axi_vdma_0_M_AXIS_MM2S_TUSER</obj_property>
+	</wvobject>
+	<wvobject fp_name="system_i/axi_vdma_0_M_AXIS_MM2S_TVALID" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system_i/axi_vdma_0_M_AXIS_MM2S_TVALID</obj_property>
+		<obj_property name="ObjectShortName">system_i/axi_vdma_0_M_AXIS_MM2S_TVALID</obj_property>
+	</wvobject>
+</wave_config>
+

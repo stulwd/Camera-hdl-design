@@ -1,0 +1,1024 @@
+17:44:37 **** Build of project MedianFilterTest_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/miz702_vtc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/miz702_vtc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/miz702_vtc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/miz702_vtc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling miz702_vtc..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+17:48:46 **** Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/MedianFilter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MedianFilter.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MedianFilter.d" -MT"src/MedianFilter.d" -o "src/MedianFilter.o" "../src/MedianFilter.c"
+../src/MedianFilter.c: In function 'MedianFilter':
+../src/MedianFilter.c:50:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pImg1 + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+../src/MedianFilter.c:28:8: warning: variable 'lLineBytes' set but not used [-Wunused-but-set-variable]
+  int   lLineBytes;                      // 图像每行的字节数 
+        ^
+'Finished building: ../src/MedianFilter.c'
+' '
+'Building file: ../src/beauty.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/beauty.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/beauty.d" -MT"src/beauty.d" -o "src/beauty.o" "../src/beauty.c"
+'Finished building: ../src/beauty.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/lena_noisy.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lena_noisy.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lena_noisy.d" -MT"src/lena_noisy.d" -o "src/lena_noisy.o" "../src/lena_noisy.c"
+'Finished building: ../src/lena_noisy.c'
+' '
+'Building file: ../src/lena_noisy512.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lena_noisy512.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lena_noisy512.d" -MT"src/lena_noisy512.d" -o "src/lena_noisy512.o" "../src/lena_noisy512.c"
+'Finished building: ../src/lena_noisy512.c'
+' '
+'Building file: ../src/miz702.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/miz702.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/miz702.d" -MT"src/miz702.d" -o "src/miz702.o" "../src/miz702.c"
+'Finished building: ../src/miz702.c'
+' '
+'Building file: ../src/miz702_rgba.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/miz702_rgba.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/miz702_rgba.d" -MT"src/miz702_rgba.d" -o "src/miz702_rgba.o" "../src/miz702_rgba.c"
+'Finished building: ../src/miz702_rgba.c'
+' '
+'Building file: ../src/mm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mm.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mm.d" -MT"src/mm.d" -o "src/mm.o" "../src/mm.c"
+'Finished building: ../src/mm.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/MedianFilter.o ./src/beauty.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+5493564	   1152	1333284	6828000	 682fe0	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+17:55:53 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+18:32:24 **** Clean-only build of project MedianFilterTest_bsp ****
+make -k clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+18:32:26 **** Clean-only build of configuration Debug for project MedianFilterTest ****
+make clean 
+rm -rf  ./src/MedianFilter.o ./src/beauty.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o  ./src/MedianFilter.d ./src/beauty.d ./src/helloworld.d ./src/lena_noisy.d ./src/lena_noisy512.d ./src/miz702.d ./src/miz702_rgba.d ./src/mm.d ./src/platform.d  MedianFilterTest.elf.size  MedianFilterTest.elf
+' '
+18:32:27 **** Build of project MedianFilterTest_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/miz702_vtc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/miz702_vtc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/miz702_vtc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/miz702_vtc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling miz702_vtc..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+18:34:08 **** Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/MedianFilter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MedianFilter.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MedianFilter.d" -MT"src/MedianFilter.d" -o "src/MedianFilter.o" "../src/MedianFilter.c"
+../src/MedianFilter.c: In function 'MedianFilter':
+../src/MedianFilter.c:50:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pImg1 + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+../src/MedianFilter.c:28:8: warning: variable 'lLineBytes' set but not used [-Wunused-but-set-variable]
+  int   lLineBytes;                      // 图像每行的字节数 
+        ^
+'Finished building: ../src/MedianFilter.c'
+' '
+'Building file: ../src/beauty.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/beauty.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/beauty.d" -MT"src/beauty.d" -o "src/beauty.o" "../src/beauty.c"
+'Finished building: ../src/beauty.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/lena_noisy.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lena_noisy.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lena_noisy.d" -MT"src/lena_noisy.d" -o "src/lena_noisy.o" "../src/lena_noisy.c"
+'Finished building: ../src/lena_noisy.c'
+' '
+'Building file: ../src/lena_noisy512.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lena_noisy512.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lena_noisy512.d" -MT"src/lena_noisy512.d" -o "src/lena_noisy512.o" "../src/lena_noisy512.c"
+'Finished building: ../src/lena_noisy512.c'
+' '
+'Building file: ../src/miz702.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/miz702.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/miz702.d" -MT"src/miz702.d" -o "src/miz702.o" "../src/miz702.c"
+'Finished building: ../src/miz702.c'
+' '
+'Building file: ../src/miz702_rgba.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/miz702_rgba.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/miz702_rgba.d" -MT"src/miz702_rgba.d" -o "src/miz702_rgba.o" "../src/miz702_rgba.c"
+'Finished building: ../src/miz702_rgba.c'
+' '
+'Building file: ../src/mm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mm.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mm.d" -MT"src/mm.d" -o "src/mm.o" "../src/mm.c"
+'Finished building: ../src/mm.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/MedianFilter.o ./src/beauty.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+5493564	   1152	1333284	6828000	 682fe0	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+18:36:03 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+20:43:35 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+20:48:54 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+21:59:52 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+22:28:32 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/EdgeDetetion.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/EdgeDetetion.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/EdgeDetetion.d" -MT"src/EdgeDetetion.d" -o "src/EdgeDetetion.o" "../src/EdgeDetetion.c"
+../src/EdgeDetetion.c: In function 'EdgeDetectionTemplate':
+../src/EdgeDetetion.c:49:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pSrcImg + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+../src/EdgeDetetion.c:51:6: error: 'fResult' undeclared (first use in this function)
+      fResult += *(lpSrc+1) * fpArray[k*iFilterW+l];
+      ^
+../src/EdgeDetetion.c:51:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/EdgeDetetion.c:51:30: error: 'fpArray' undeclared (first use in this function)
+      fResult += *(lpSrc+1) * fpArray[k*iFilterW+l];
+                              ^
+../src/EdgeDetetion.c:55:14: error: 'fCoef' undeclared (first use in this function)
+    fResult = fCoef*fResult;
+              ^
+../src/EdgeDetetion.c:56:4: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+    fResult = (float)fabs(fResult);
+    ^
+../src/EdgeDetetion.c:56:21: warning: incompatible implicit declaration of built-in function 'fabs'
+    fResult = (float)fabs(fResult);
+                     ^
+../src/EdgeDetetion.c:66:5: warning: implicit declaration of function 'u8' [-Wimplicit-function-declaration]
+     * (lpDst+1) = u8(fResult+0.5);
+     ^
+../src/EdgeDetetion.c:28:8: warning: variable 'lLineBytes' set but not used [-Wunused-but-set-variable]
+  int   lLineBytes;                      // 图像每行的字节数 
+        ^
+../src/EdgeDetetion.c:26:14: warning: unused variable 'aValue_b' [-Wunused-variable]
+  int         aValue_b[iFilterH*iFilterW];      // 指向滤波器数组的指针
+              ^
+../src/EdgeDetetion.c:25:14: warning: unused variable 'aValue_g' [-Wunused-variable]
+  int         aValue_g[iFilterH*iFilterW];      // 指向滤波器数组的指针
+              ^
+../src/EdgeDetetion.c:24:14: warning: unused variable 'aValue_r' [-Wunused-variable]
+  int         aValue_r[iFilterH*iFilterW];      // 指向滤波器数组的指针
+              ^
+make: *** [src/EdgeDetetion.o] 错误 1
+22:29:54 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/EdgeDetetion.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/EdgeDetetion.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/EdgeDetetion.d" -MT"src/EdgeDetetion.d" -o "src/EdgeDetetion.o" "../src/EdgeDetetion.c"
+../src/EdgeDetetion.c:26:26: error: unknown type name 'flat'
+   int nWidth,int nHeight,flat *fpArray, float fCoef)
+                          ^
+make: *** [src/EdgeDetetion.o] 错误 1
+22:30:12 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/EdgeDetetion.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/EdgeDetetion.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/EdgeDetetion.d" -MT"src/EdgeDetetion.d" -o "src/EdgeDetetion.o" "../src/EdgeDetetion.c"
+../src/EdgeDetetion.c: In function 'EdgeDetectionTemplate':
+../src/EdgeDetetion.c:55:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pSrcImg + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+../src/EdgeDetetion.c:57:6: error: 'fResult' undeclared (first use in this function)
+      fResult += *(lpSrc+1) * fpArray[k*iFilterW+l];
+      ^
+../src/EdgeDetetion.c:57:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/EdgeDetetion.c:62:4: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+    fResult = (float)fabs(fResult);
+    ^
+../src/EdgeDetetion.c:62:21: warning: incompatible implicit declaration of built-in function 'fabs'
+    fResult = (float)fabs(fResult);
+                     ^
+../src/EdgeDetetion.c:72:5: warning: implicit declaration of function 'u8' [-Wimplicit-function-declaration]
+     * (lpDst+1) = u8(fResult+0.5);
+     ^
+../src/EdgeDetetion.c:34:8: warning: variable 'lLineBytes' set but not used [-Wunused-but-set-variable]
+  int   lLineBytes;                      // 图像每行的字节数 
+        ^
+../src/EdgeDetetion.c:32:14: warning: unused variable 'aValue_b' [-Wunused-variable]
+  int         aValue_b[iFilterH*iFilterW];      // 指向滤波器数组的指针
+              ^
+../src/EdgeDetetion.c:31:14: warning: unused variable 'aValue_g' [-Wunused-variable]
+  int         aValue_g[iFilterH*iFilterW];      // 指向滤波器数组的指针
+              ^
+../src/EdgeDetetion.c:30:14: warning: unused variable 'aValue_r' [-Wunused-variable]
+  int         aValue_r[iFilterH*iFilterW];      // 指向滤波器数组的指针
+              ^
+make: *** [src/EdgeDetetion.o] 错误 1
+22:31:16 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/EdgeDetetion.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/EdgeDetetion.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/EdgeDetetion.d" -MT"src/EdgeDetetion.d" -o "src/EdgeDetetion.o" "../src/EdgeDetetion.c"
+../src/EdgeDetetion.c: In function 'EdgeDetectionTemplate':
+../src/EdgeDetetion.c:53:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pSrcImg + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+../src/EdgeDetetion.c:60:4: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+    fResult = (float)fabs(fResult);
+    ^
+../src/EdgeDetetion.c:60:21: warning: incompatible implicit declaration of built-in function 'fabs'
+    fResult = (float)fabs(fResult);
+                     ^
+../src/EdgeDetetion.c:70:5: warning: implicit declaration of function 'u8' [-Wimplicit-function-declaration]
+     * (lpDst+1) = u8(fResult+0.5);
+     ^
+../src/EdgeDetetion.c:32:8: warning: variable 'lLineBytes' set but not used [-Wunused-but-set-variable]
+  int   lLineBytes;                      // 图像每行的字节数 
+        ^
+'Finished building: ../src/EdgeDetetion.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/EdgeDetetion.o: In function `EdgeDetectionTemplate':
+E:\Miz702\Miz702_Sys_MedianFilter\miz702_sys.sdk\MedianFilterTest\Debug/../src/EdgeDetetion.c:70: undefined reference to `u8'
+collect2.exe: error: ld returned 1 exit status
+make: *** [MedianFilterTest.elf] 错误 1
+22:31:44 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/EdgeDetetion.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/EdgeDetetion.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/EdgeDetetion.d" -MT"src/EdgeDetetion.d" -o "src/EdgeDetetion.o" "../src/EdgeDetetion.c"
+../src/EdgeDetetion.c: In function 'EdgeDetectionTemplate':
+../src/EdgeDetetion.c:53:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pSrcImg + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+../src/EdgeDetetion.c:60:4: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+    fResult = (float)fabs(fResult);
+    ^
+../src/EdgeDetetion.c:60:21: warning: incompatible implicit declaration of built-in function 'fabs'
+    fResult = (float)fabs(fResult);
+                     ^
+../src/EdgeDetetion.c:32:8: warning: variable 'lLineBytes' set but not used [-Wunused-but-set-variable]
+  int   lLineBytes;                      // 图像每行的字节数 
+        ^
+'Finished building: ../src/EdgeDetetion.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+5494212	   1152	1333284	6828648	 683268	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+22:33:28 **** Clean-only build of configuration Debug for project MedianFilterTest ****
+make clean 
+rm -rf  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o  ./src/EdgeDetetion.d ./src/MedianFilter.d ./src/beauty.d ./src/helloworld.d ./src/lena_noisy.d ./src/lena_noisy512.d ./src/miz702.d ./src/miz702_rgba.d ./src/mm.d ./src/platform.d  MedianFilterTest.elf.size  MedianFilterTest.elf
+' '
+22:33:34 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/EdgeDetetion.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/EdgeDetetion.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/EdgeDetetion.d" -MT"src/EdgeDetetion.d" -o "src/EdgeDetetion.o" "../src/EdgeDetetion.c"
+../src/EdgeDetetion.c: In function 'EdgeDetectionTemplate':
+../src/EdgeDetetion.c:53:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pSrcImg + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+../src/EdgeDetetion.c:60:4: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+    fResult = (float)fabs(fResult);
+    ^
+../src/EdgeDetetion.c:60:21: warning: incompatible implicit declaration of built-in function 'fabs'
+    fResult = (float)fabs(fResult);
+                     ^
+../src/EdgeDetetion.c:32:8: warning: variable 'lLineBytes' set but not used [-Wunused-but-set-variable]
+  int   lLineBytes;                      // 图像每行的字节数 
+        ^
+'Finished building: ../src/EdgeDetetion.c'
+' '
+'Building file: ../src/MedianFilter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MedianFilter.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/MedianFilter.d" -MT"src/MedianFilter.d" -o "src/MedianFilter.o" "../src/MedianFilter.c"
+../src/MedianFilter.c: In function 'MedianFilter':
+../src/MedianFilter.c:50:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pImg1 + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+../src/MedianFilter.c:28:8: warning: variable 'lLineBytes' set but not used [-Wunused-but-set-variable]
+  int   lLineBytes;                      // 图像每行的字节数 
+        ^
+'Finished building: ../src/MedianFilter.c'
+' '
+'Building file: ../src/beauty.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/beauty.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/beauty.d" -MT"src/beauty.d" -o "src/beauty.o" "../src/beauty.c"
+'Finished building: ../src/beauty.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/lena_noisy.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lena_noisy.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lena_noisy.d" -MT"src/lena_noisy.d" -o "src/lena_noisy.o" "../src/lena_noisy.c"
+'Finished building: ../src/lena_noisy.c'
+' '
+'Building file: ../src/lena_noisy512.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lena_noisy512.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lena_noisy512.d" -MT"src/lena_noisy512.d" -o "src/lena_noisy512.o" "../src/lena_noisy512.c"
+'Finished building: ../src/lena_noisy512.c'
+' '
+'Building file: ../src/miz702.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/miz702.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/miz702.d" -MT"src/miz702.d" -o "src/miz702.o" "../src/miz702.c"
+'Finished building: ../src/miz702.c'
+' '
+'Building file: ../src/miz702_rgba.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/miz702_rgba.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/miz702_rgba.d" -MT"src/miz702_rgba.d" -o "src/miz702_rgba.o" "../src/miz702_rgba.c"
+'Finished building: ../src/miz702_rgba.c'
+' '
+'Building file: ../src/mm.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mm.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mm.d" -MT"src/mm.d" -o "src/mm.o" "../src/mm.c"
+'Finished building: ../src/mm.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+5494212	   1152	1333284	6828648	 683268	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+22:36:59 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/EdgeDetetion.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/EdgeDetetion.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/EdgeDetetion.d" -MT"src/EdgeDetetion.d" -o "src/EdgeDetetion.o" "../src/EdgeDetetion.c"
+../src/EdgeDetetion.c: In function 'EdgeDetectionTemplate':
+../src/EdgeDetetion.c:33:2: error: 'lLineBytes' undeclared (first use in this function)
+  lLineBytes = nWidth*4;//WIDTHBYTES(nWidth * 8);
+  ^
+../src/EdgeDetetion.c:33:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/EdgeDetetion.c:53:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pSrcImg + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+../src/EdgeDetetion.c:60:4: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+    fResult = (float)fabs(fResult);
+    ^
+../src/EdgeDetetion.c:60:21: warning: incompatible implicit declaration of built-in function 'fabs'
+    fResult = (float)fabs(fResult);
+                     ^
+make: *** [src/EdgeDetetion.o] 错误 1
+22:37:27 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/EdgeDetetion.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/EdgeDetetion.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/EdgeDetetion.d" -MT"src/EdgeDetetion.d" -o "src/EdgeDetetion.o" "../src/EdgeDetetion.c"
+../src/EdgeDetetion.c: In function 'EdgeDetectionTemplate':
+../src/EdgeDetetion.c:33:2: error: 'lLineBytes' undeclared (first use in this function)
+  lLineBytes = nWidth*4;//WIDTHBYTES(nWidth * 8);
+  ^
+../src/EdgeDetetion.c:33:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/EdgeDetetion.c:53:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pSrcImg + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+../src/EdgeDetetion.c:60:4: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+    fResult = (float)fabs(fResult);
+    ^
+../src/EdgeDetetion.c:60:21: warning: incompatible implicit declaration of built-in function 'fabs'
+    fResult = (float)fabs(fResult);
+                     ^
+make: *** [src/EdgeDetetion.o] 错误 1
+22:37:43 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/EdgeDetetion.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/EdgeDetetion.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/EdgeDetetion.d" -MT"src/EdgeDetetion.d" -o "src/EdgeDetetion.o" "../src/EdgeDetetion.c"
+../src/EdgeDetetion.c: In function 'EdgeDetectionTemplate':
+../src/EdgeDetetion.c:53:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pSrcImg + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+../src/EdgeDetetion.c:60:4: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+    fResult = (float)fabs(fResult);
+    ^
+../src/EdgeDetetion.c:60:21: warning: incompatible implicit declaration of built-in function 'fabs'
+    fResult = (float)fabs(fResult);
+                     ^
+'Finished building: ../src/EdgeDetetion.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+5494220	   1152	1333284	6828656	 683270	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+22:55:54 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/EdgeDetetion.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/EdgeDetetion.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/EdgeDetetion.d" -MT"src/EdgeDetetion.d" -o "src/EdgeDetetion.o" "../src/EdgeDetetion.c"
+../src/EdgeDetetion.c: In function 'EdgeDetectionTemplate':
+../src/EdgeDetetion.c:57:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pSrcImg + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+../src/EdgeDetetion.c:65:4: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+    fResultX = (float)fabs(fResultX);
+    ^
+../src/EdgeDetetion.c:65:22: warning: incompatible implicit declaration of built-in function 'fabs'
+    fResultX = (float)fabs(fResultX);
+                      ^
+../src/EdgeDetetion.c:72:5: error: 'tmpDstX' undeclared (first use in this function)
+     tmpDstX = 255;
+     ^
+../src/EdgeDetetion.c:72:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/EdgeDetetion.c:87:5: error: 'tmpDstY' undeclared (first use in this function)
+     tmpDstY = 255;
+     ^
+make: *** [src/EdgeDetetion.o] 错误 1
+22:56:26 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/EdgeDetetion.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/EdgeDetetion.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/EdgeDetetion.d" -MT"src/EdgeDetetion.d" -o "src/EdgeDetetion.o" "../src/EdgeDetetion.c"
+../src/EdgeDetetion.c: In function 'EdgeDetectionTemplate':
+../src/EdgeDetetion.c:59:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pSrcImg + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+../src/EdgeDetetion.c:67:4: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+    fResultX = (float)fabs(fResultX);
+    ^
+../src/EdgeDetetion.c:67:22: warning: incompatible implicit declaration of built-in function 'fabs'
+    fResultX = (float)fabs(fResultX);
+                      ^
+'Finished building: ../src/EdgeDetetion.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+5494844	   1152	1333284	6829280	 6834e0	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+22:58:53 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+5494928	   1152	2381860	7877940	 783534	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+23:00:39 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+23:05:18 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/EdgeDetetion.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/EdgeDetetion.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/EdgeDetetion.d" -MT"src/EdgeDetetion.d" -o "src/EdgeDetetion.o" "../src/EdgeDetetion.c"
+../src/EdgeDetetion.c: In function 'EdgeDetectionTemplate':
+../src/EdgeDetetion.c:59:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pSrcImg + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+../src/EdgeDetetion.c:67:4: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+    fResultX = (float)fabs(fResultX);
+    ^
+../src/EdgeDetetion.c:67:22: warning: incompatible implicit declaration of built-in function 'fabs'
+    fResultX = (float)fabs(fResultX);
+                      ^
+'Finished building: ../src/EdgeDetetion.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+5494704	   1152	2381860	7877716	 783454	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+23:05:30 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+23:09:38 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/EdgeDetetion.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/EdgeDetetion.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/EdgeDetetion.d" -MT"src/EdgeDetetion.d" -o "src/EdgeDetetion.o" "../src/EdgeDetetion.c"
+../src/EdgeDetetion.c: In function 'EdgeDetectionTemplate':
+../src/EdgeDetetion.c:59:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pSrcImg + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+'Finished building: ../src/EdgeDetetion.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+5494736	   1152	2381860	7877748	 783474	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+23:14:24 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+23:33:37 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:146:27: error: 'gImage_grayLena512' undeclared (first use in this function)
+     EdgeDetectionTemplate(gImage_grayLena512,gImage_lena512_edge,512,512, 1.0);
+                           ^
+../src/helloworld.c:146:27: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] 错误 1
+23:36:11 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+E:\Miz702\Miz702_Sys_MedianFilter\miz702_sys.sdk\MedianFilterTest\Debug/../src/helloworld.c:149: undefined reference to `gImage_grayLena512'
+E:\Miz702\Miz702_Sys_MedianFilter\miz702_sys.sdk\MedianFilterTest\Debug/../src/helloworld.c:149: undefined reference to `gImage_grayLena512'
+collect2.exe: error: ld returned 1 exit status
+make: *** [MedianFilterTest.elf] 错误 1
+23:36:37 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+E:\Miz702\Miz702_Sys_MedianFilter\miz702_sys.sdk\MedianFilterTest\Debug/../src/helloworld.c:149: undefined reference to `gImage_grayLena512'
+E:\Miz702\Miz702_Sys_MedianFilter\miz702_sys.sdk\MedianFilterTest\Debug/../src/helloworld.c:149: undefined reference to `gImage_grayLena512'
+collect2.exe: error: ld returned 1 exit status
+make: *** [MedianFilterTest.elf] 错误 1
+23:36:50 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/grayLena512.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/grayLena512.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/grayLena512.d" -MT"src/grayLena512.d" -o "src/grayLena512.o" "../src/grayLena512.c"
+'Finished building: ../src/grayLena512.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/grayLena512.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+6543284	   1152	2381860	8926296	 883458	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+23:37:34 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/grayLena512.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+6543236	   1152	2381860	8926248	 883428	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+23:42:56 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+23:47:36 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/grayLena512.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+6543236	   1152	2381860	8926248	 883428	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+23:48:11 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+00:04:38 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/EdgeDetetion.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/EdgeDetetion.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/EdgeDetetion.d" -MT"src/EdgeDetetion.d" -o "src/EdgeDetetion.o" "../src/EdgeDetetion.c"
+../src/EdgeDetetion.c: In function 'EdgeDetectionTemplate':
+../src/EdgeDetetion.c:59:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pSrcImg + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+'Finished building: ../src/EdgeDetetion.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/grayLena512.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+6543252	   1152	2381860	8926264	 883438	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+00:06:47 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/EdgeDetetion.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/EdgeDetetion.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/EdgeDetetion.d" -MT"src/EdgeDetetion.d" -o "src/EdgeDetetion.o" "../src/EdgeDetetion.c"
+../src/EdgeDetetion.c: In function 'EdgeDetectionTemplate':
+../src/EdgeDetetion.c:59:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pSrcImg + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+'Finished building: ../src/EdgeDetetion.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/grayLena512.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+6543236	   1152	2381860	8926248	 883428	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+00:07:52 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/EdgeDetetion.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/EdgeDetetion.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/EdgeDetetion.d" -MT"src/EdgeDetetion.d" -o "src/EdgeDetetion.o" "../src/EdgeDetetion.c"
+../src/EdgeDetetion.c: In function 'EdgeDetectionTemplate':
+../src/EdgeDetetion.c:60:12: warning: assignment discards 'const' qualifier from pointer target type
+      lpSrc = pSrcImg + ((i+k-iFilterMY)*nWidth+j+l-iFilterMX)*4;
+            ^
+'Finished building: ../src/EdgeDetetion.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/grayLena512.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+6543252	   1152	2381860	8926264	 883438	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+18:40:55 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+18:50:40 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/grayLena512.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+6543280	   1152	2381860	8926292	 883454	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+18:50:47 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+18:51:23 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+18:53:27 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/grayLena512.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+6543244	   1152	2381860	8926256	 883430	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+18:54:02 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+18:54:08 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+19:48:09 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+19:48:20 **** Auto Build of configuration Debug for project MedianFilterTest ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../MedianFilterTest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: MedianFilterTest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../MedianFilterTest_bsp/ps7_cortexa9_0/lib -o "MedianFilterTest.elf"  ./src/EdgeDetetion.o ./src/MedianFilter.o ./src/beauty.o ./src/grayLena512.o ./src/helloworld.o ./src/lena_noisy.o ./src/lena_noisy512.o ./src/miz702.o ./src/miz702_rgba.o ./src/mm.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MedianFilterTest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MedianFilterTest.elf  |tee "MedianFilterTest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+6543252	   1152	2381860	8926264	 883438	MedianFilterTest.elf
+'Finished building: MedianFilterTest.elf.size'
+' '
+19:48:24 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
+19:48:31 **** Incremental Build of configuration Debug for project MedianFilterTest ****
+make all 
+make: Nothing to be done for `all'.
